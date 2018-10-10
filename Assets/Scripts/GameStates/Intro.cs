@@ -6,6 +6,8 @@ public class Intro : GameState
 {
     #region Public Fields
     public TriggerCheck triggerToCheck = null;
+    public Transform[] transformsToLight = null;
+    public Transform[] transformsSingleToLight = null;
     #endregion
 
     #region Private Fields
@@ -38,10 +40,18 @@ public class Intro : GameState
     #region Private Methods
     private IEnumerator ChangeColor()
     {
-        Movable[] m = FindObjectsOfType<Movable>();
-        for (int i = 0; i < m.Length; i++)
+        for(int i = 0; i < transformsToLight.Length; i++)
         {
-            m[i].ChangeColor();
+            for(int c = 0; c < transformsToLight[i].childCount; c++)
+            {
+                transformsToLight[i].GetChild(c).GetComponent<ColorizedCube>().ChangeColor();
+                yield return new WaitForSeconds(0.05f);
+            }
+        }
+
+        for (int i = 0; i < transformsSingleToLight.Length; i++)
+        {
+            transformsSingleToLight[i].GetComponent<ColorizedCube>().ChangeColor();
             yield return new WaitForSeconds(0.05f);
         }
     }

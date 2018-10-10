@@ -5,61 +5,46 @@ using UnityEngine;
 public class Movable : MonoBehaviour 
 {
     #region Public Fields
-    public ColorCube colorCube;
-    public bool blackDefault = false;
     #endregion
 
     #region Private Fields
-    private Renderer _renderer = null;
+    private bool _moving = false;
+    private Transform _transform = null;
     #endregion
 
     #region Unity Methods
     private void Start()
     {
-        _renderer = GetComponent<Renderer>();
-        if (blackDefault) _renderer.material.color = Color.black;
+        _transform = transform;
     }
     #endregion
 
     #region Public Methods
-    public void ChangeColor()
+    public void Move()
     {
-        StartCoroutine(ChangeColorOverTime(1));
-    }
+        Debug.Log("move");
 
-    public IEnumerator ChangeColorOverTime(float time)
-    {
-        float timer = 0;
-        Color col = _renderer.material.color;
-        Color target = GetTargetColor();
-        while (timer < time)
-        {
-            _renderer.material.color = Color.Lerp(col, target, timer / time);
-            timer += Time.deltaTime;
-            yield return null;
-        }
+        if (_moving) return;
+
+        _moving = true;
+
+        StartCoroutine("MoveCube");
     }
     #endregion
 
     #region Private Methods
-    private Color GetTargetColor()
+    private IEnumerator MoveCube()
     {
-        switch(colorCube)
+        float timer = 0;
+        Vector3 basePos = _transform.position;
+        while (timer < 1)
         {
-            case ColorCube.BLACK:
-                return Color.black;
-            case ColorCube.BLUE:
-                return Color.blue;
-            case ColorCube.GREEN:
-                return Color.green;
-            case ColorCube.RED:
-                return Color.red;
-            case ColorCube.WHITE:
-                return Color.white;
-            default:
-                return Color.white;
-
+            _transform.position = Vector3.Lerp(basePos, basePos + Vector3.forward, timer);
+            timer += Time.deltaTime;
+            yield return null;
         }
+        _transform.position = basePos + Vector3.forward;
+        _moving = false;
     }
     #endregion
 }

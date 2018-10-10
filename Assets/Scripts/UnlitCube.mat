@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: UnlitCube
-  m_Shader: {fileID: 4800000, guid: 13b581b3e971f8a47b10ea0f0b7cb59d, type: 3}
+  m_Shader: {fileID: 4800000, guid: f7698aa839201664e87420e33670ba14, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -26,4 +26,4 @@ Material:
     - _Glossiness: 0
     - _Metallic: 1
     m_Colors:
-    - _Color: {r: 0, g: 0, b: 0, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}

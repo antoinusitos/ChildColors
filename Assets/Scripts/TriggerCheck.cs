@@ -9,11 +9,14 @@ public class TriggerCheck : MonoBehaviour
 
     #region Private Fields
     private bool _playerInside = false;
+    private bool _active = true;
     #endregion
 
     #region Unity Methods
     private void OnTriggerEnter(Collider other)
     {
+        if (!_active) return;
+
         Player p = other.GetComponent<Player>();
         if(p != null)
         {
@@ -23,6 +26,8 @@ public class TriggerCheck : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
+        if (!_active) return;
+
         Player p = other.GetComponent<Player>();
         if (p != null)
         {
