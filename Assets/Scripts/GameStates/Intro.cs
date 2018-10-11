@@ -26,6 +26,7 @@ public class Intro : GameState
     {
         if(triggerToCheck.GetPlayerInside())
         {
+            triggerToCheck.gameObject.SetActive(false);
             return true;
         }
         return false;

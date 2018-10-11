@@ -22,7 +22,7 @@ public class PlayerAction : MonoBehaviour
 		if(Input.GetKeyDown(KeyCode.E))
         {
             RaycastHit hit;
-            if (Physics.Raycast(cameraPlayer.position, cameraPlayer.forward, out hit, 100))
+            if (Physics.Raycast(cameraPlayer.position, cameraPlayer.forward, out hit, 2))
             {
                 Movable m = hit.transform.GetComponent<Movable>();
                 if(m != null)

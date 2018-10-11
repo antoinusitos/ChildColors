@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movable : MonoBehaviour 
 {
     #region Public Fields
+    public float speed = 2.0f;
     #endregion
 
     #region Private Fields
@@ -35,15 +36,22 @@ public class Movable : MonoBehaviour
     #region Private Methods
     private IEnumerator MoveCube()
     {
-        float timer = 0;
-        Vector3 basePos = _transform.position;
-        while (timer < 1)
+        RaycastHit hit; 
+        if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
-            _transform.position = Vector3.Lerp(basePos, basePos + Vector3.forward, timer);
-            timer += Time.deltaTime;
-            yield return null;
+            float timer = 0;
+            Vector3 basePos = _transform.position;
+            Vector3 finalPos = hit.point + hit.normal / 2;
+            float dist = Vector3.Distance(basePos, finalPos);
+            while (timer < dist)
+            {
+                _transform.position = Vector3.Lerp(basePos, finalPos, timer / dist);
+                timer += Time.deltaTime * speed;
+                yield return null;
+            }
+            _transform.position = finalPos;
         }
-        _transform.position = basePos + Vector3.forward;
+
         _moving = false;
     }
     #endregion
