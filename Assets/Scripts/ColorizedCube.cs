@@ -32,24 +32,8 @@ public class ColorizedCube : MonoBehaviour
     {
         return _colorChanged;
     }
-    #endregion
 
-    #region Private Methods
-    private IEnumerator ChangeColorOverTime(float time)
-    {
-        float timer = 0;
-        Color col = _renderer.material.color;
-        Color target = GetTargetColor();
-        while (timer < time)
-        {
-            _renderer.material.color = Color.Lerp(col, target, timer / time);
-            timer += Time.deltaTime;
-            yield return null;
-        }
-        _colorChanged = true;
-    }
-
-    private Color GetTargetColor()
+    public Color GetTargetColor()
     {
         switch (colorCube)
         {
@@ -65,8 +49,23 @@ public class ColorizedCube : MonoBehaviour
                 return Color.white;
             default:
                 return Color.white;
-
         }
+    }
+    #endregion
+
+    #region Private Methods
+    private IEnumerator ChangeColorOverTime(float time)
+    {
+        float timer = 0;
+        Color col = _renderer.material.color;
+        Color target = GetTargetColor();
+        while (timer < time)
+        {
+            _renderer.material.color = Color.Lerp(col, target, timer / time);
+            timer += Time.deltaTime;
+            yield return null;
+        }
+        _colorChanged = true;
     }
     #endregion
 }
