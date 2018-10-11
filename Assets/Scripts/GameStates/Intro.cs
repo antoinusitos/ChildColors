@@ -8,6 +8,7 @@ public class Intro : GameState
     public TriggerCheck triggerToCheck = null;
     public Transform[] transformsToLight = null;
     public Transform[] transformsSingleToLight = null;
+    public ExecuteAction actions = null;
     #endregion
 
     #region Private Fields
@@ -55,6 +56,8 @@ public class Intro : GameState
             transformsSingleToLight[i].GetComponent<ColorizedCube>().ChangeColor();
             yield return new WaitForSeconds(0.05f);
         }
+
+        actions.ExecuteActions();
     }
     #endregion
 }

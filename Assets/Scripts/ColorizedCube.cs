@@ -28,6 +28,17 @@ public class ColorizedCube : MonoBehaviour
         StartCoroutine(ChangeColorOverTime(1));
     }
 
+    public ColorCube GetColorCube()
+    {
+        return colorCube;
+    }
+
+    public void SetTargetColor(int newColor)
+    {
+        colorCube = (ColorCube)newColor;
+        ChangeColor();
+    }
+
     public bool GetColorChanged()
     {
         return _colorChanged;

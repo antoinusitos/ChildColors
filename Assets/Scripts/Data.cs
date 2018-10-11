@@ -11,6 +11,13 @@ public enum ColorCube
     BLUE
 }
 
+[System.Serializable]
+public struct MovementsInfo
+{
+    public Vector3 pos;
+    public float time;
+}
+
 public class Data : MonoBehaviour 
 {
 	#region Public Fields
