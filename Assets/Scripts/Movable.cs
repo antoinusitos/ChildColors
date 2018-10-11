@@ -10,6 +10,7 @@ public class Movable : MonoBehaviour
 
     #region Private Fields
     private bool _moving = false;
+    private bool _canMove = false;
     private Transform _transform = null;
     #endregion
 
@@ -23,13 +24,23 @@ public class Movable : MonoBehaviour
     #region Public Methods
     public void Move()
     {
-        Debug.Log("move");
+        if (!_canMove) return;
 
         if (_moving) return;
 
         _moving = true;
 
         StartCoroutine("MoveCube");
+    }
+
+    public bool GetIsMoving()
+    {
+        return _moving;
+    }
+
+    public void SetCanMove(bool newState)
+    {
+        _canMove = newState;
     }
     #endregion
 

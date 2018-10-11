@@ -11,6 +11,7 @@ public class ColorizedCube : MonoBehaviour
 
     #region Private Fields
     private Renderer _renderer = null;
+    private bool _colorChanged = false;
     #endregion
 
     #region Unity Methods
@@ -27,7 +28,14 @@ public class ColorizedCube : MonoBehaviour
         StartCoroutine(ChangeColorOverTime(1));
     }
 
-    public IEnumerator ChangeColorOverTime(float time)
+    public bool GetColorChanged()
+    {
+        return _colorChanged;
+    }
+    #endregion
+
+    #region Private Methods
+    private IEnumerator ChangeColorOverTime(float time)
     {
         float timer = 0;
         Color col = _renderer.material.color;
@@ -38,10 +46,9 @@ public class ColorizedCube : MonoBehaviour
             timer += Time.deltaTime;
             yield return null;
         }
+        _colorChanged = true;
     }
-    #endregion
 
-    #region Private Methods
     private Color GetTargetColor()
     {
         switch (colorCube)
