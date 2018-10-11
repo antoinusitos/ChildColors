@@ -6417,6 +6417,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 380150525}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &387297827 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114454617524884110, guid: 14502bca60ddbd546af6fb3424cac33d,
+    type: 2}
+  m_PrefabInternal: {fileID: 1093851901}
+  m_Script: {fileID: 11500000, guid: 19238b4d4e6ef5b4ebd45450db8649bc, type: 3}
 --- !u!1 &391386711
 GameObject:
   m_ObjectHideFlags: 0
@@ -11748,7 +11754,7 @@ Prefab:
         type: 2}
       propertyPath: receiver
       value: 
-      objectReference: {fileID: 1552607195}
+      objectReference: {fileID: 944314362}
     - target: {fileID: 1519141169603864, guid: 1fa2520916532af41ba5fa763dcf37e9, type: 2}
       propertyPath: m_Name
       value: Laser (2)
@@ -11805,6 +11811,10 @@ Prefab:
         type: 2}
       propertyPath: m_Positions.Array.data[1].z
       value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519141169603864, guid: 1fa2520916532af41ba5fa763dcf37e9, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fa2520916532af41ba5fa763dcf37e9, type: 2}
@@ -18824,6 +18834,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   colorCube: 1
   blackDefault: 1
+--- !u!114 &944314362 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114336350510077542, guid: f3dc3744bdc75f945b9465fdc3bab54b,
+    type: 2}
+  m_PrefabInternal: {fileID: 86077580}
+  m_Script: {fileID: 11500000, guid: 23d61ca0e06975742b4c30ed41e1c1bf, type: 3}
 --- !u!1 &944996256
 GameObject:
   m_ObjectHideFlags: 0
@@ -22387,6 +22403,16 @@ Prefab:
       propertyPath: transformsSingleToLight.Array.data[8]
       value: 
       objectReference: {fileID: 122696124}
+    - target: {fileID: 114713833100669976, guid: 14502bca60ddbd546af6fb3424cac33d,
+        type: 2}
+      propertyPath: startingGameState
+      value: 
+      objectReference: {fileID: 387297827}
+    - target: {fileID: 114454617524884110, guid: 14502bca60ddbd546af6fb3424cac33d,
+        type: 2}
+      propertyPath: skipAnimation
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114276568433660082, guid: 14502bca60ddbd546af6fb3424cac33d, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: 14502bca60ddbd546af6fb3424cac33d, type: 2}
@@ -27757,7 +27783,7 @@ Prefab:
         type: 2}
       propertyPath: receiver
       value: 
-      objectReference: {fileID: 1964584186}
+      objectReference: {fileID: 1552607195}
     - target: {fileID: 1519141169603864, guid: 1fa2520916532af41ba5fa763dcf37e9, type: 2}
       propertyPath: m_Name
       value: Laser (1)
@@ -27814,6 +27840,10 @@ Prefab:
         type: 2}
       propertyPath: m_Positions.Array.data[1].z
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1519141169603864, guid: 1fa2520916532af41ba5fa763dcf37e9, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1fa2520916532af41ba5fa763dcf37e9, type: 2}

@@ -25,6 +25,7 @@ public class ColorizedCube : MonoBehaviour
     #region Public Methods
     public void ChangeColor()
     {
+        StopCoroutine("ChangeColorOverTime");
         StartCoroutine(ChangeColorOverTime(1));
     }
 

@@ -1179,6 +1179,12 @@ MonoBehaviour:
     type: 2}
   m_PrefabInternal: {fileID: 86077580}
   m_Script: {fileID: 11500000, guid: 1578400d368cd3143820e1621fafbd03, type: 3}
+--- !u!114 &86077582 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114336350510077542, guid: f3dc3744bdc75f945b9465fdc3bab54b,
+    type: 2}
+  m_PrefabInternal: {fileID: 86077580}
+  m_Script: {fileID: 11500000, guid: 23d61ca0e06975742b4c30ed41e1c1bf, type: 3}
 --- !u!1 &86207429
 GameObject:
   m_ObjectHideFlags: 0
@@ -11766,7 +11772,7 @@ Prefab:
         type: 2}
       propertyPath: receiver
       value: 
-      objectReference: {fileID: 1552607195}
+      objectReference: {fileID: 86077582}
     - target: {fileID: 1519141169603864, guid: 1fa2520916532af41ba5fa763dcf37e9, type: 2}
       propertyPath: m_Name
       value: Laser (2)
@@ -27758,7 +27764,7 @@ Prefab:
         type: 2}
       propertyPath: receiver
       value: 
-      objectReference: {fileID: 1964584186}
+      objectReference: {fileID: 1552607195}
     - target: {fileID: 1519141169603864, guid: 1fa2520916532af41ba5fa763dcf37e9, type: 2}
       propertyPath: m_Name
       value: Laser (1)

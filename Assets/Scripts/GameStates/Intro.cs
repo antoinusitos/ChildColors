@@ -9,6 +9,8 @@ public class Intro : GameState
     public Transform[] transformsToLight = null;
     public Transform[] transformsSingleToLight = null;
     public ExecuteAction actions = null;
+
+    public bool skipAnimation = false;
     #endregion
 
     #region Private Fields
@@ -42,19 +44,37 @@ public class Intro : GameState
     #region Private Methods
     private IEnumerator ChangeColor()
     {
-        for(int i = 0; i < transformsToLight.Length; i++)
+        if (skipAnimation)
         {
-            for(int c = 0; c < transformsToLight[i].childCount; c++)
+            for (int i = 0; i < transformsToLight.Length; i++)
             {
-                transformsToLight[i].GetChild(c).GetComponent<ColorizedCube>().ChangeColor();
-                yield return new WaitForSeconds(0.05f);
+                for (int c = 0; c < transformsToLight[i].childCount; c++)
+                {
+                    transformsToLight[i].GetChild(c).GetComponent<ColorizedCube>().ChangeColor();
+                }
+            }
+
+            for (int i = 0; i < transformsSingleToLight.Length; i++)
+            {
+                transformsSingleToLight[i].GetComponent<ColorizedCube>().ChangeColor();
             }
         }
-
-        for (int i = 0; i < transformsSingleToLight.Length; i++)
+        else
         {
-            transformsSingleToLight[i].GetComponent<ColorizedCube>().ChangeColor();
-            yield return new WaitForSeconds(0.05f);
+            for (int i = 0; i < transformsToLight.Length; i++)
+            {
+                for (int c = 0; c < transformsToLight[i].childCount; c++)
+                {
+                    transformsToLight[i].GetChild(c).GetComponent<ColorizedCube>().ChangeColor();
+                    yield return new WaitForSeconds(0.05f);
+                }
+            }
+
+            for (int i = 0; i < transformsSingleToLight.Length; i++)
+            {
+                transformsSingleToLight[i].GetComponent<ColorizedCube>().ChangeColor();
+                yield return new WaitForSeconds(0.05f);
+            }
         }
 
         actions.ExecuteActions();
