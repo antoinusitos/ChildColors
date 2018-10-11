@@ -20,19 +20,22 @@ public class GameState : MonoBehaviour
 
     #region Public Methods
     public virtual void OnStateEnter()
-    {
-        enterActions.ExecuteActions();
+    { 
+        if(enterActions != null)
+            enterActions.ExecuteActions();
     }
 
     public virtual bool OnStateUpdate() //true = exit state
     {
-        updateActions.ExecuteActions();
+        if (updateActions != null)
+            updateActions.ExecuteActions();
         return false;
     }
 
     public virtual void OnStateExit()
     {
-        exitActions.ExecuteActions();
+        if (exitActions != null)
+            exitActions.ExecuteActions();
     }
 
     public GameState GetNextGameState()

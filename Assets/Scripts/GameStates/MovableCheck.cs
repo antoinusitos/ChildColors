@@ -18,11 +18,13 @@ public class MovableCheck : GameState
     #region Public Methods
     public override void OnStateEnter()
     {
+        base.OnStateEnter();
         movable.SetCanMove(true);
     }
 
     public override bool OnStateUpdate() //true = exit state
     {
+        base.OnStateUpdate();
         if (triggerCheckObject.GetObjectInside() && !movable.GetIsMoving())
             return true;
         return false;
@@ -30,7 +32,7 @@ public class MovableCheck : GameState
 
     public override void OnStateExit()
     {
-
+        base.OnStateExit();
     }
     #endregion
 
