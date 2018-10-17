@@ -29,7 +29,7 @@ public class Laser : MonoBehaviour
         if (Physics.Raycast(_transform.position, _transform.forward, out hit))
         {
             ColorizedCube cc = hit.transform.GetComponent<ColorizedCube>();
-            if (cc != null)
+            if (cc != null && _colorCube != cc.GetColorCube())
             {
                 _colorCube = cc.GetColorCube();
                 _lineRenderer.material.color = cc.GetTargetColor();
