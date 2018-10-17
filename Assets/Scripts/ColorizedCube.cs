@@ -59,6 +59,8 @@ public class ColorizedCube : MonoBehaviour
                 return Color.red;
             case ColorCube.WHITE:
                 return Color.white;
+            case ColorCube.GREY:
+                return Color.grey;
             default:
                 return Color.white;
         }

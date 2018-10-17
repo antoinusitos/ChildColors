@@ -6,6 +6,8 @@ public class Laser : MonoBehaviour
 {
     #region Public Fields
     public ColorizedCube receiver = null;
+    public Color baseLaserColor;
+    public ColorCube baseColor = ColorCube.WHITE;
     #endregion
 
     #region Private Fields
@@ -20,6 +22,8 @@ public class Laser : MonoBehaviour
 	{
         _transform = transform;
         _lineRenderer = GetComponent<LineRenderer>();
+        _colorCube = baseColor;
+        ChangeLaserColor(baseLaserColor);
     }
 	
 	private void Update () 
@@ -28,13 +32,17 @@ public class Laser : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(_transform.position, _transform.forward, out hit))
         {
-            ColorizedCube cc = hit.transform.GetComponent<ColorizedCube>();
-            if (cc != null && _colorCube != cc.GetColorCube())
+            Movable m = hit.transform.GetComponent<Movable>();
+            if (m != null)
             {
-                _colorCube = cc.GetColorCube();
-                _lineRenderer.material.color = cc.GetTargetColor();
-                receiver.SetTargetColor((int)cc.GetColorCube());
-                receiver.ChangeColor();
+                ColorizedCube cc = m.GetComponent<ColorizedCube>();
+                if (cc != null && _colorCube != cc.GetColorCube())
+                {
+                    _colorCube = cc.GetColorCube();
+                    _lineRenderer.material.color = cc.GetTargetColor();
+                    receiver.SetTargetColor((int)cc.GetColorCube());
+                    receiver.ChangeColor();
+                }
             }
         }
     }

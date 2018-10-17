@@ -8,7 +8,8 @@ public enum ColorCube
     WHITE,
     RED,
     GREEN,
-    BLUE
+    BLUE,
+    GREY
 }
 
 [System.Serializable]

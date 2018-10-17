@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WaitIntro : GameState
+public class Wait : GameState
 {
     #region Public Fields
-    public ColorizedCube redCube = null;
+    public float timeToWait = 0;
     #endregion
 
     #region Private Fields
+    private float _currentTimeWaited = 0;
     #endregion
 
     #region Unity Methods
@@ -17,20 +18,20 @@ public class WaitIntro : GameState
     #region Public Methods
     public override void OnStateEnter()
     {
-        base.OnStateEnter();
+
     }
 
     public override bool OnStateUpdate() //true = exit state
     {
-        base.OnStateUpdate();
-        if (redCube.GetColorChanged())
+        if (_currentTimeWaited >= timeToWait)
             return true;
+        _currentTimeWaited += Time.deltaTime;
         return false;
     }
 
     public override void OnStateExit()
     {
-        base.OnStateExit();
+
     }
     #endregion
 
