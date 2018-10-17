@@ -18,11 +18,12 @@ public class Wait : GameState
     #region Public Methods
     public override void OnStateEnter()
     {
-
+        base.OnStateEnter();
     }
 
     public override bool OnStateUpdate() //true = exit state
     {
+        base.OnStateUpdate();
         if (_currentTimeWaited >= timeToWait)
             return true;
         _currentTimeWaited += Time.deltaTime;
@@ -31,7 +32,7 @@ public class Wait : GameState
 
     public override void OnStateExit()
     {
-
+        base.OnStateExit();
     }
     #endregion
 
