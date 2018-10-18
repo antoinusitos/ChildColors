@@ -28,11 +28,23 @@ public class GameManager : MonoBehaviour
             _currentGameState.OnStateEnter();
         }
     }
-	#endregion
-	
-	#region Public Methods
     #endregion
-	
-	#region Private Methods
+
+    #region Public Methods
     #endregion
+
+    #region Private Methods
+    #endregion
+
+    //---------------------------------------------------------------------
+
+    private static GameManager _instance = null;
+    public static GameManager GetInstance()
+    {
+        return _instance;
+    }
+    private void Awake()
+    {
+        _instance = this;
+    }
 }

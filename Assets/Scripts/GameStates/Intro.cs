@@ -22,7 +22,7 @@ public class Intro : GameState
     #region Public Methods
     public override void OnStateEnter()
     {
-
+        FadeManager.GetInstance().FadeOut();
     }
 
     public override bool OnStateUpdate() //true = exit state
