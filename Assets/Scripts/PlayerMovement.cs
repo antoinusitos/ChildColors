@@ -29,6 +29,8 @@ public class PlayerMovement : MonoBehaviour
 	
 	private void FixedUpdate () 
 	{
+        if (!_canMove) return;
+
         Vector3 newPos = Vector3.zero;
         bool movement = false;
         if (Input.GetKey(KeyCode.Z))
@@ -62,6 +64,10 @@ public class PlayerMovement : MonoBehaviour
 	#endregion
 	
 	#region Public Methods
+    public void SetCanMove(bool newState)
+    {
+        _canMove = newState;
+    }
     #endregion
 	
 	#region Private Methods

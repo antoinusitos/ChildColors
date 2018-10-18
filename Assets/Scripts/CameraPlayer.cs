@@ -7,6 +7,7 @@ public class CameraPlayer : MonoBehaviour
     #region Public Fields
     public Transform transformToRotate = null;
     public float _speedHorizontal = 100.0f;
+    public bool canMoveAtStart = true;
     #endregion
 
     #region Private Fields
@@ -16,8 +17,6 @@ public class CameraPlayer : MonoBehaviour
     private float _stickSensibility = 0;
 
     private bool _invertMouse = true;
-
-    public bool canMoveAtStart = true;
     private bool _canMove = true;
     #endregion
 
@@ -50,11 +49,15 @@ public class CameraPlayer : MonoBehaviour
 
         transformToRotate.Rotate(Vector3.right, axisTop);
     }
-	#endregion
-	
-	#region Public Methods
     #endregion
-	
-	#region Private Methods
+
+    #region Public Methods
+    public void SetCanMove(bool newState)
+    {
+        _canMove = newState;
+    }
+    #endregion
+
+    #region Private Methods
     #endregion
 }
