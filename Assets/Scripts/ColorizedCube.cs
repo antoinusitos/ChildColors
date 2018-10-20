@@ -7,6 +7,7 @@ public class ColorizedCube : MonoBehaviour
     #region Public Fields
     public ColorCube colorCube;
     public bool blackDefault = false;
+    public bool setColorAtStart = false;
     #endregion
 
     #region Private Fields
@@ -19,6 +20,7 @@ public class ColorizedCube : MonoBehaviour
     {
         _renderer = GetComponent<Renderer>();
         if (blackDefault) _renderer.material.color = Color.black;
+        else if(setColorAtStart) _renderer.material.color = GetTargetColor();
     }
     #endregion
 
