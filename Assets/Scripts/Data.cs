@@ -19,6 +19,13 @@ public struct MovementsInfo
     public float time;
 }
 
+[System.Serializable]
+public struct SubtileInfo
+{
+    public string text;
+    public float time;
+}
+
 public class Data : MonoBehaviour 
 {
 	#region Public Fields

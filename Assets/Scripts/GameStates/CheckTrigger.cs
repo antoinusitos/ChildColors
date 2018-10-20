@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DEBUG : GameState
+public class CheckTrigger : GameState 
 {
     #region Public Fields
-    public ColorizedCube redCube = null;
+    public TriggerCheck triggerToCheck = null;
+    public bool desactivateTriggerAfterUse = true;
     #endregion
 
     #region Private Fields
@@ -17,13 +18,16 @@ public class DEBUG : GameState
     #region Public Methods
     public override void OnStateEnter()
     {
-        Debug.Log("DEBUG");
-        base.OnStateEnter();
     }
 
     public override bool OnStateUpdate() //true = exit state
     {
-        base.OnStateUpdate();
+        if(triggerToCheck.GetPlayerInside())
+        {
+            if(desactivateTriggerAfterUse)
+                triggerToCheck.gameObject.SetActive(false);
+            return true;
+        }
         return false;
     }
 

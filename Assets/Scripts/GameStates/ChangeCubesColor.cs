@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Intro : GameState 
+public class ChangeCubesColor : MonoBehaviour 
 {
     #region Public Fields
-    public TriggerCheck triggerToCheck = null;
     public Transform[] transformsToLight = null;
     public Transform[] transformsSingleToLight = null;
-    public ExecuteAction actions = null;
 
+    public bool sameTime = true;
     public bool skipAnimation = false;
     #endregion
 
@@ -20,23 +19,21 @@ public class Intro : GameState
     #endregion
 
     #region Public Methods
-    public override void OnStateEnter()
+    public void Execute()
     {
-    }
-
-    public override bool OnStateUpdate() //true = exit state
-    {
-        if(triggerToCheck.GetPlayerInside())
+        if(sameTime)
         {
-            triggerToCheck.gameObject.SetActive(false);
-            return true;
+            for (int i = 0; i < transformsToLight.Length; i++)
+            {
+                StartCoroutine(ChangeColorForObject(transformsToLight[i]));
+            }
+            for (int i = 0; i < transformsSingleToLight.Length; i++)
+            {
+                StartCoroutine(ChangeColorForObject(transformsSingleToLight[i]));
+            }
         }
-        return false;
-    }
-
-    public override void OnStateExit()
-    {
-        StartCoroutine("ChangeColor");
+        else
+            StartCoroutine("ChangeColor");
     }
     #endregion
 
@@ -75,8 +72,36 @@ public class Intro : GameState
                 yield return new WaitForSeconds(0.05f);
             }
         }
+    }
 
-        actions.ExecuteActions();
+    private IEnumerator ChangeColorForObject(Transform t)
+    {
+        if (skipAnimation)
+        {
+            if(t.childCount > 0)
+            {
+                for (int c = 0; c < t.childCount; c++)
+                {
+                    t.GetChild(c).GetComponent<ColorizedCube>().ChangeColor();
+                }
+            }
+            else
+                t.GetComponent<ColorizedCube>().ChangeColor();
+        }
+        else
+        {
+            if (t.childCount > 0)
+            {
+                for (int c = 0; c < t.childCount; c++)
+                {
+                    t.GetChild(c).GetComponent<ColorizedCube>().ChangeColor();
+                    yield return new WaitForSeconds(0.05f);
+                }
+            }
+            else
+                t.GetComponent<ColorizedCube>().ChangeColor();
+                
+        }
     }
     #endregion
 }

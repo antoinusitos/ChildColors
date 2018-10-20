@@ -18,12 +18,16 @@ public class ChangeLevel : MonoBehaviour
         Player p = other.GetComponent<Player>();
         if(p != null)
         {
-            SceneManager.LoadScene(nextLevel);
+            LoadNextLevel();
         }
     }
     #endregion
 
     #region Public Methods
+    public void LoadNextLevel()
+    {
+        SceneManager.LoadScene(nextLevel);
+    }
     #endregion
 
     #region Private Methods

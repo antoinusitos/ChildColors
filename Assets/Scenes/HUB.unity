@@ -211,7 +211,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &13500785
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,54 +310,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
---- !u!1001 &20992356
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: -3.03
-      objectReference: {fileID: 0}
-    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 224568317569383032, guid: cff7f16035113064faee887963787283,
-        type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: cff7f16035113064faee887963787283, type: 2}
-  m_IsPrefabAsset: 0
+  blackDefault: 0
 --- !u!1 &32384420
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,7 +355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &32384423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -555,7 +508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &39710250
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +553,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &39710253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -753,7 +706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &55123881
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,7 +751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &55123884
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -897,7 +850,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &75092847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -996,7 +949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &84834560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1095,7 +1048,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &86207432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1194,7 +1147,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &104375278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1347,7 +1300,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &117024332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,7 +1345,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &117024335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1447,6 +1400,58 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 117024332}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &122298916
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -3.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4106792493695468, guid: cff7f16035113064faee887963787283, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224568317569383032, guid: cff7f16035113064faee887963787283,
+        type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114301723505553892, guid: cff7f16035113064faee887963787283,
+        type: 2}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cff7f16035113064faee887963787283, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &122682200
 GameObject:
   m_ObjectHideFlags: 0
@@ -1491,7 +1496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &122682203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1590,7 +1595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &123744035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1689,7 +1694,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &124593469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1788,7 +1793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &124960371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1951,97 +1956,6 @@ Transform:
   m_Father: {fileID: 1307110131}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &141525385
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 141525386}
-  - component: {fileID: 141525389}
-  - component: {fileID: 141525388}
-  - component: {fileID: 141525387}
-  m_Layer: 0
-  m_Name: Event_16
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &141525386
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 141525385}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &141525387
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 141525385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 760fc3f5acc083c488b7a02461353a0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  subtileInfos:
-  - text: For the first time, I had the impression that a big journey was awaiting
-      me...
-    time: 5
-  - text: And then I saw it...
-    time: 5
---- !u!114 &141525388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 141525385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 141525387}
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Colors... Colors are the base of our universe...
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &141525389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 141525385}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 260721971}
-  enterActions: {fileID: 141525388}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 14
 --- !u!1 &142990371
 GameObject:
   m_ObjectHideFlags: 0
@@ -2086,7 +2000,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &142990374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2185,7 +2099,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &144075141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2240,95 +2154,12 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 144075138}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &155791309
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 155791310}
-  - component: {fileID: 155791313}
-  - component: {fileID: 155791312}
-  - component: {fileID: 155791311}
-  m_Layer: 0
-  m_Name: Event_4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &155791310
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 155791309}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 994595366}
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &155791311
+--- !u!114 &145728879 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 155791309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 760fc3f5acc083c488b7a02461353a0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  subtileInfos:
-  - text: What's this strange light...
-    time: 5
---- !u!114 &155791312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 155791309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 155791311}
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Colors... Colors are the base of our universe...
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &155791313
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 155791309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 271589553}
-  enterActions: {fileID: 155791312}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 994595367}
-  timeToWait: 9
+  m_CorrespondingSourceObject: {fileID: 114885421828938596, guid: 62c45be771a8eab4bbacd20d467363e3,
+    type: 2}
+  m_PrefabInternal: {fileID: 1209336237}
+  m_Script: {fileID: 11500000, guid: c6150c94c4db9c74b9c18d8db9e769d6, type: 3}
 --- !u!1 &160562496
 GameObject:
   m_ObjectHideFlags: 0
@@ -2373,7 +2204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &160562499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2472,7 +2303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &163475742
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2571,7 +2402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &164818426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2670,7 +2501,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &165294206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2769,7 +2600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &167091605
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2934,7 +2765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &172773499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3033,7 +2864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &179705970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3088,79 +2919,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 179705967}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &187388465
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 187388466}
-  - component: {fileID: 187388468}
-  - component: {fileID: 187388467}
-  m_Layer: 0
-  m_Name: Event_15
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &187388466
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 187388465}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &187388467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 187388465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1954091324}
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Colors... Colors are the base of our universe...
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &187388468
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 187388465}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 141525389}
-  enterActions: {fileID: 187388467}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 3
 --- !u!1 &191211640
 GameObject:
   m_ObjectHideFlags: 0
@@ -3205,7 +2963,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &191211643
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3304,7 +3062,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &204796276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3403,7 +3161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &207933346
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3502,7 +3260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &210418468
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3601,7 +3359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &216230692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3700,7 +3458,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &218646347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3799,7 +3557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &227676986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3898,7 +3656,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &232128530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4051,7 +3809,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &236865297
 GameObject:
   m_ObjectHideFlags: 0
@@ -4150,7 +3908,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &255395704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4249,7 +4007,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &260721970
 GameObject:
   m_ObjectHideFlags: 0
@@ -4262,7 +4020,7 @@ GameObject:
   - component: {fileID: 260721971}
   - component: {fileID: 260721973}
   m_Layer: 0
-  m_Name: Event_17
+  m_Name: DEBUG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4297,7 +4055,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1800617367}
-  m_RootOrder: 19
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &260721973
 MonoBehaviour:
@@ -4312,18 +4070,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   events:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 653945153}
-        m_MethodName: LoadNextLevel
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &261397064
@@ -4370,7 +4117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &261397067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4469,7 +4216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &264614059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4524,54 +4271,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 264614056}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &271589552
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1198188444187390, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 271589555}
-  - component: {fileID: 271589553}
-  m_Layer: 0
-  m_Name: Event_5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &271589553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 271589552}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f360d4f762c40f45bfd1eb04d0925a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 1514234862}
-  enterActions: {fileID: 0}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  triggerToCheck: {fileID: 1048432702}
-  desactivateTriggerAfterUse: 1
---- !u!4 &271589555
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4555354120732914, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 271589552}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &281405883
 GameObject:
   m_ObjectHideFlags: 0
@@ -4670,7 +4369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &295171637
 GameObject:
   m_ObjectHideFlags: 0
@@ -4715,7 +4414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &295171640
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4814,7 +4513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &297310763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4913,7 +4612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &302510940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5012,7 +4711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &305134530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5165,7 +4864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &332989506
 GameObject:
   m_ObjectHideFlags: 0
@@ -5210,7 +4909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &332989509
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5265,171 +4964,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 332989506}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &333891968
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 333891970}
-  - component: {fileID: 333891969}
-  - component: {fileID: 333891971}
-  m_Layer: 0
-  m_Name: Event_3_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &333891969
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 333891968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 155791313}
-  enterActions: {fileID: 333891971}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 1
---- !u!4 &333891970
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 333891968}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &333891971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 333891968}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1400642831}
-        m_MethodName: FadeOut
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!1 &341905882
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 341905883}
-  - component: {fileID: 341905886}
-  - component: {fileID: 341905885}
-  - component: {fileID: 341905884}
-  m_Layer: 0
-  m_Name: Event_7
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &341905883
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 341905882}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &341905884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 341905882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19238b4d4e6ef5b4ebd45450db8649bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  transformsToLight:
-  - {fileID: 1313489978}
-  - {fileID: 440335122}
-  - {fileID: 135722142}
-  transformsSingleToLight: []
-  sameTime: 1
-  skipAnimation: 0
---- !u!114 &341905885
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 341905882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 341905884}
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Colors... Colors are the base of our universe...
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &341905886
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 341905882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 1395475575}
-  enterActions: {fileID: 341905885}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 15
 --- !u!1 &346532420
 GameObject:
   m_ObjectHideFlags: 0
@@ -5474,7 +5008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &346532423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5627,7 +5161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &350052042
 GameObject:
   m_ObjectHideFlags: 0
@@ -5672,7 +5206,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &350052045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5771,7 +5305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &357567491
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5870,7 +5404,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &359793466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5969,7 +5503,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &373066262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6068,7 +5602,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &373454247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6167,7 +5701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &379113454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6266,7 +5800,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &380150528
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6365,7 +5899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &391386714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6420,136 +5954,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 391386711}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &392098893
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1356140012501946, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 392098895}
-  - component: {fileID: 392098894}
-  - component: {fileID: 392098896}
-  m_Layer: 0
-  m_Name: Event_11
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &392098894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 392098893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 682078250}
-  enterActions: {fileID: 392098896}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 2
---- !u!4 &392098895
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4750206548956482, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 392098893}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &392098896
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 392098893}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1024174885}
-        m_MethodName: ExecuteMovements
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1429009244}
-        m_MethodName: ExecuteMovements
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 466161448}
-        m_MethodName: ExecuteMovements
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 516704331}
-        m_MethodName: ExecuteMovements
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1612784840}
-        m_MethodName: ExecuteMovements
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 701902747}
-        m_MethodName: ExecuteMovements
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &399528853
 GameObject:
   m_ObjectHideFlags: 0
@@ -6648,7 +6052,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &401964178
 GameObject:
   m_ObjectHideFlags: 0
@@ -6693,7 +6097,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &401964181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6792,7 +6196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &404238817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6891,7 +6295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &409487517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6990,7 +6394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &413641550
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7089,7 +6493,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &423559009
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7242,7 +6646,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &431269397
 GameObject:
   m_ObjectHideFlags: 0
@@ -7287,7 +6691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &431269400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7440,7 +6844,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &435041093
 GameObject:
   m_ObjectHideFlags: 0
@@ -7539,7 +6943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &438840646
 GameObject:
   m_ObjectHideFlags: 0
@@ -7584,7 +6988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &438840649
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7737,7 +7141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &440335121
 GameObject:
   m_ObjectHideFlags: 0
@@ -7890,7 +7294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &441804951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8043,91 +7447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
---- !u!1 &453954925
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 453954928}
-  - component: {fileID: 453954926}
-  - component: {fileID: 453954927}
-  m_Layer: 0
-  m_Name: Event_12_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &453954926
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 453954925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 1624752217}
-  enterActions: {fileID: 453954927}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 1
---- !u!114 &453954927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 453954925}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1799827742}
-        m_MethodName: SetCanMove
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1799827741}
-        m_MethodName: SetCanMove
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!4 &453954928
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 453954925}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 14
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  blackDefault: 0
 --- !u!1 &455168111
 GameObject:
   m_ObjectHideFlags: 0
@@ -8172,7 +7492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &455168114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8271,7 +7591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &455173734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8424,7 +7744,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &458746245
 GameObject:
   m_ObjectHideFlags: 0
@@ -8469,7 +7789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &458746248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8568,7 +7888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &464333556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8668,7 +7988,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &466161445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8783,7 +8103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &468339683
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8936,7 +8256,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &484273344
 GameObject:
   m_ObjectHideFlags: 0
@@ -8981,7 +8301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &484273347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9080,7 +8400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &491869289
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9135,136 +8455,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 491869286}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &494933206
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1356140012501946, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 494933207}
-  - component: {fileID: 494933208}
-  - component: {fileID: 494933209}
-  m_Layer: 0
-  m_Name: Event_9
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &494933207
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4750206548956482, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494933206}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 10
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &494933208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494933206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 1971595306}
-  enterActions: {fileID: 0}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 494933209}
-  timeToWait: 1
---- !u!114 &494933209
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 494933206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1429009240}
-        m_MethodName: SetTargetColor
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1024174881}
-        m_MethodName: SetTargetColor
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 466161444}
-        m_MethodName: SetTargetColor
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 516704327}
-        m_MethodName: SetTargetColor
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1612784836}
-        m_MethodName: SetTargetColor
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 701902743}
-        m_MethodName: SetTargetColor
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &512993646
 GameObject:
   m_ObjectHideFlags: 0
@@ -9309,7 +8499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &512993649
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9409,7 +8599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &516704328
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9524,7 +8714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &520753010
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9623,7 +8813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &521023627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9722,7 +8912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &521698185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9875,7 +9065,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &525668914
 GameObject:
   m_ObjectHideFlags: 0
@@ -9920,7 +9110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &525668917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10019,7 +9209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &540878990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10118,7 +9308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &542533351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10217,7 +9407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &551850132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10316,7 +9506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &554863223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10415,7 +9605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &578395638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10514,7 +9704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &578408296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10613,7 +9803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &578636428
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10712,7 +9902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &587382427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10811,7 +10001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &590232603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10910,7 +10100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &596508714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10965,92 +10155,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 596508711}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &597872889
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1419328353502162, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 597872891}
-  - component: {fileID: 597872890}
-  - component: {fileID: 597872892}
-  m_Layer: 0
-  m_Name: Event_3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &597872890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 597872889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 333891969}
-  enterActions: {fileID: 597872892}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 1
---- !u!4 &597872891
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4525860633605862, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 597872889}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &597872892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 597872889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 659862074}
-        m_MethodName: Stop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1954091324}
-        m_MethodName: Stop
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &601081936
 GameObject:
   m_ObjectHideFlags: 0
@@ -11095,7 +10199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &601081939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11194,7 +10298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &602041490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11293,7 +10397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &608779805
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11446,7 +10550,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &643155067
 GameObject:
   m_ObjectHideFlags: 0
@@ -11491,7 +10595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &643155070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11546,12 +10650,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 643155067}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &653945153 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114068176584255522, guid: 8262175c891d5484b9d6800ca485b3d7,
-    type: 2}
-  m_PrefabInternal: {fileID: 1807272841}
-  m_Script: {fileID: 11500000, guid: 5b4c9c272fb36ae4c9a7c20a329dcd23, type: 3}
 --- !u!1 &659862070
 GameObject:
   m_ObjectHideFlags: 0
@@ -11562,7 +10660,6 @@ GameObject:
   - component: {fileID: 659862072}
   - component: {fileID: 659862071}
   - component: {fileID: 659862073}
-  - component: {fileID: 659862074}
   m_Layer: 0
   m_Name: Event_0
   m_TagString: Untagged
@@ -11581,11 +10678,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextGameState: {fileID: 1954091323}
+  nextGameState: {fileID: 1937432316}
   enterActions: {fileID: 659862073}
   updateActions: {fileID: 0}
   exitActions: {fileID: 0}
-  timeToWait: 5
+  timeToWait: 2
 --- !u!4 &659862072
 Transform:
   m_ObjectHideFlags: 0
@@ -11613,8 +10710,8 @@ MonoBehaviour:
   events:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 659862074}
-        m_MethodName: Play
+      - m_Target: {fileID: 145728879}
+        m_MethodName: FadeOut
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11626,101 +10723,6 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!82 &659862074
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 659862070}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1c9f5c1143324d84aa0d85a7169c3fb4, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 0.3
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &661445704
 GameObject:
   m_ObjectHideFlags: 0
@@ -11765,7 +10767,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &661445707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11864,7 +10866,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &669595848
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11963,7 +10965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &672124494
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12062,7 +11064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &672899252
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12146,95 +11148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a94bc8c333b053c41ae66ab81d6d7b1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingGameState: {fileID: 333891969}
---- !u!1 &682078246
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 682078247}
-  - component: {fileID: 682078250}
-  - component: {fileID: 682078249}
-  - component: {fileID: 682078248}
-  m_Layer: 0
-  m_Name: Event_12
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &682078247
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 682078246}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &682078248
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 682078246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 760fc3f5acc083c488b7a02461353a0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  subtileInfos:
-  - text: I only had to do the first step...
-    time: 5
---- !u!114 &682078249
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 682078246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 682078248}
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Colors... Colors are the base of our universe...
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &682078250
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 682078246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 453954926}
-  enterActions: {fileID: 682078249}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 9
+  startingGameState: {fileID: 659862071}
 --- !u!1 &692515117
 GameObject:
   m_ObjectHideFlags: 0
@@ -12279,7 +11193,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &692515120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12379,7 +11293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &701902744
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12494,7 +11408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &705442269
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12593,7 +11507,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &712328517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12692,7 +11606,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &717549238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12845,7 +11759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &725776350
 GameObject:
   m_ObjectHideFlags: 0
@@ -12890,7 +11804,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &725776353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12989,7 +11903,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &731877746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13142,7 +12056,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &745599040
 GameObject:
   m_ObjectHideFlags: 0
@@ -13187,7 +12101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &745599043
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13286,7 +12200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &750921101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13439,7 +12353,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &754548188
 GameObject:
   m_ObjectHideFlags: 0
@@ -13484,7 +12398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &754548191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13583,7 +12497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &761542069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13682,7 +12596,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &764686191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13781,7 +12695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &765341812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13880,7 +12794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &766487239
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13979,7 +12893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &773418938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14078,7 +12992,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &780859336
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14231,7 +13145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &794506741
 GameObject:
   m_ObjectHideFlags: 0
@@ -14330,7 +13244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &795129986
 GameObject:
   m_ObjectHideFlags: 0
@@ -14375,7 +13289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &795129989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14474,7 +13388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &818490857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14573,7 +13487,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &827894981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14672,7 +13586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &837907912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14771,7 +13685,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &840461746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14870,7 +13784,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &841895563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15023,57 +13937,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
---- !u!1001 &844602925
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-  m_IsPrefabAsset: 0
+  blackDefault: 0
 --- !u!1 &847551418
 GameObject:
   m_ObjectHideFlags: 0
@@ -15172,7 +14036,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &850555049
 GameObject:
   m_ObjectHideFlags: 0
@@ -15271,7 +14135,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &851656297
 GameObject:
   m_ObjectHideFlags: 0
@@ -15316,7 +14180,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &851656300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15415,7 +14279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &853184740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15514,7 +14378,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &856995089
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15667,7 +14531,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &860875502
 GameObject:
   m_ObjectHideFlags: 0
@@ -15766,7 +14630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &864124732
 GameObject:
   m_ObjectHideFlags: 0
@@ -15865,7 +14729,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &864947288
 GameObject:
   m_ObjectHideFlags: 0
@@ -15910,7 +14774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &864947291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16009,7 +14873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &865036405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16108,7 +14972,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &878270863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16207,7 +15071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &879242961
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16306,7 +15170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &881935438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16459,7 +15323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &887468931
 GameObject:
   m_ObjectHideFlags: 0
@@ -16504,7 +15368,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &887468934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16603,7 +15467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &891688157
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16702,7 +15566,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &900218438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16801,7 +15665,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &902800069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16900,7 +15764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &905679141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16999,7 +15863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &908871443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17098,7 +15962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &916407323
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17251,7 +16115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &930783720
 GameObject:
   m_ObjectHideFlags: 0
@@ -17296,7 +16160,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &930783723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17395,7 +16259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &935824440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17494,7 +16358,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &936152938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17593,7 +16457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &937582234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17746,97 +16610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
---- !u!1 &944896036
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 944896037}
-  - component: {fileID: 944896040}
-  - component: {fileID: 944896039}
-  - component: {fileID: 944896038}
-  m_Layer: 0
-  m_Name: Event_2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &944896037
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 944896036}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &944896038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 944896036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 760fc3f5acc083c488b7a02461353a0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  subtileInfos:
-  - text: Colors... Colors are the base of our universe...
-    time: 5
-  - text: I always wondered where they have been gone...
-    time: 5
---- !u!114 &944896039
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 944896036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 944896038}
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Colors... Colors are the base of our universe...
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &944896040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 944896036}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 597872890}
-  enterActions: {fileID: 944896039}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 14
+  blackDefault: 0
 --- !u!1 &944996256
 GameObject:
   m_ObjectHideFlags: 0
@@ -17881,7 +16655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &944996259
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18034,7 +16808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &961867025
 GameObject:
   m_ObjectHideFlags: 0
@@ -18079,7 +16853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &961867028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18178,7 +16952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &963421150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18277,7 +17051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &963479389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18430,7 +17204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &970219594
 GameObject:
   m_ObjectHideFlags: 0
@@ -18475,7 +17249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &970219597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18574,7 +17348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &970874067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18673,7 +17447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &973624617
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18826,7 +17600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &989281297
 GameObject:
   m_ObjectHideFlags: 0
@@ -18871,7 +17645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &989281300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18926,84 +17700,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 989281297}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &994595365
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 994595366}
-  - component: {fileID: 994595367}
-  m_Layer: 0
-  m_Name: Event_4_0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &994595366
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 994595365}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 155791310}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &994595367
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 994595365}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1799827742}
-        m_MethodName: SetCanMove
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1799827741}
-        m_MethodName: SetCanMove
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1407547448}
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &996854980
 GameObject:
   m_ObjectHideFlags: 0
@@ -19102,7 +17798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1001835623
 GameObject:
   m_ObjectHideFlags: 0
@@ -19147,7 +17843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1001835626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19246,7 +17942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1002317299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19345,7 +18041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1010763870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19444,7 +18140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1018914434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19499,66 +18195,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1018914431}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &1020212943
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 13
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_RootOrder
-      value: 9
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 4367701340681098, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1865769232511906, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-      propertyPath: m_Name
-      value: TriggerToCheck (1)
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 5d86e835ea109f74db031397d5009554, type: 2}
-  m_IsPrefabAsset: 0
---- !u!114 &1020212944 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114881872951445348, guid: 5d86e835ea109f74db031397d5009554,
-    type: 2}
-  m_PrefabInternal: {fileID: 1020212943}
-  m_Script: {fileID: 11500000, guid: 9a0c1019632d1de4a8e482ac21cfb06f, type: 3}
 --- !u!1 &1021359307
 GameObject:
   m_ObjectHideFlags: 0
@@ -19657,7 +18293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1022152962
 GameObject:
   m_ObjectHideFlags: 0
@@ -19718,7 +18354,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1024174879
 GameObject:
@@ -19765,7 +18401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1024174882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19880,7 +18516,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1034308235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20033,7 +18669,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1043312626
 GameObject:
   m_ObjectHideFlags: 0
@@ -20132,7 +18768,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1043921120
 GameObject:
   m_ObjectHideFlags: 0
@@ -20177,7 +18813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1043921123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20232,12 +18868,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1043921120}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1048432702 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114881872951445348, guid: 5d86e835ea109f74db031397d5009554,
-    type: 2}
-  m_PrefabInternal: {fileID: 844602925}
-  m_Script: {fileID: 11500000, guid: 9a0c1019632d1de4a8e482ac21cfb06f, type: 3}
 --- !u!1 &1064287558
 GameObject:
   m_ObjectHideFlags: 0
@@ -20282,7 +18912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1064287561
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20381,7 +19011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1066419714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20480,7 +19110,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1075148305
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20579,7 +19209,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1079200866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20678,7 +19308,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1080656413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20777,7 +19407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1082257427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20876,7 +19506,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1104287513
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20975,7 +19605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1111438030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21074,7 +19704,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1115930635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21227,7 +19857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1122269772
 GameObject:
   m_ObjectHideFlags: 0
@@ -21272,7 +19902,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1122269775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21371,7 +20001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1130386920
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21470,7 +20100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1135642701
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21569,7 +20199,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1143680976
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21668,7 +20298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1156757329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21767,7 +20397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1159753399
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21866,7 +20496,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1173565445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21965,7 +20595,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1176475511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22118,7 +20748,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1180982125
 GameObject:
   m_ObjectHideFlags: 0
@@ -22163,7 +20793,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1180982128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22262,7 +20892,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1181418533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22361,7 +20991,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1184257304
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22514,7 +21144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1192545508
 GameObject:
   m_ObjectHideFlags: 0
@@ -22559,7 +21189,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1192545511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22658,7 +21288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1193272535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22757,7 +21387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1205477493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22857,7 +21487,7 @@ Prefab:
     - target: {fileID: 224057704375212802, guid: 62c45be771a8eab4bbacd20d467363e3,
         type: 2}
       propertyPath: m_RootOrder
-      value: 8
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 224057704375212802, guid: 62c45be771a8eab4bbacd20d467363e3,
         type: 2}
@@ -23025,7 +21655,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1224121296
 GameObject:
   m_ObjectHideFlags: 0
@@ -23070,7 +21700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1224121299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23169,7 +21799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1224672824
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23268,7 +21898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1228357558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23367,7 +21997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1228373426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23466,7 +22096,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1242244866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23565,7 +22195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1246894545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23718,7 +22348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1251549642
 GameObject:
   m_ObjectHideFlags: 0
@@ -23763,7 +22393,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1251549645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23862,7 +22492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1254682766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23961,7 +22591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1263947826
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24060,7 +22690,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1265044309
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24213,7 +22843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1283059457
 GameObject:
   m_ObjectHideFlags: 0
@@ -24258,7 +22888,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1283059460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24357,7 +22987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1289347244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24456,7 +23086,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1297012947
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24555,7 +23185,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1298542597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24739,80 +23369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
---- !u!1 &1308534301
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1308534305}
-  - component: {fileID: 1308534302}
-  - component: {fileID: 1308534303}
-  m_Layer: 0
-  m_Name: Event_14
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1308534302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1308534301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 187388468}
-  enterActions: {fileID: 1308534303}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 3
---- !u!114 &1308534303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1308534301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 659862074}
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Colors... Colors are the base of our universe...
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!4 &1308534305
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1308534301}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  blackDefault: 0
 --- !u!1 &1309317653
 GameObject:
   m_ObjectHideFlags: 0
@@ -24911,7 +23468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1313489977
 GameObject:
   m_ObjectHideFlags: 0
@@ -25200,7 +23757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1315976403
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25299,7 +23856,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1316435496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25398,7 +23955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1318437048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25497,7 +24054,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1337738118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25596,7 +24153,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1338388540
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25749,7 +24306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1358954428
 GameObject:
   m_ObjectHideFlags: 0
@@ -25794,7 +24351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1358954431
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25893,7 +24450,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1361430340
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25992,7 +24549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1370884718
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26091,7 +24648,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1374486859
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26190,7 +24747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1375475445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26343,7 +24900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1377133267
 GameObject:
   m_ObjectHideFlags: 0
@@ -26442,7 +24999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1378452987
 GameObject:
   m_ObjectHideFlags: 0
@@ -26487,7 +25044,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1378452990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26640,7 +25197,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1381477520
 GameObject:
   m_ObjectHideFlags: 0
@@ -26685,7 +25242,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1381477523
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26838,7 +25395,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1392813801
 GameObject:
   m_ObjectHideFlags: 0
@@ -26883,7 +25440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1392813804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26982,7 +25539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1394321144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27037,122 +25594,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1394321141}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1395475571
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1395475572}
-  - component: {fileID: 1395475575}
-  - component: {fileID: 1395475574}
-  - component: {fileID: 1395475573}
-  m_Layer: 0
-  m_Name: Event_8
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1395475572
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1395475571}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1395475573
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1395475571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 760fc3f5acc083c488b7a02461353a0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  subtileInfos:
-  - text: I wanted to see more.. the world was not single colored anymore...
-    time: 5
---- !u!114 &1395475574
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1395475571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1395475573}
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Colors... Colors are the base of our universe...
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1799827742}
-        m_MethodName: SetCanMove
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1799827741}
-        m_MethodName: SetCanMove
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1395475575
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1395475571}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 494933208}
-  enterActions: {fileID: 1395475574}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 9
---- !u!114 &1400642831 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114885421828938596, guid: 62c45be771a8eab4bbacd20d467363e3,
-    type: 2}
-  m_PrefabInternal: {fileID: 1209336237}
-  m_Script: {fileID: 11500000, guid: c6150c94c4db9c74b9c18d8db9e769d6, type: 3}
 --- !u!1 &1400955435
 GameObject:
   m_ObjectHideFlags: 0
@@ -27251,12 +25692,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
---- !u!1 &1407547448 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1454170441780578, guid: cff7f16035113064faee887963787283,
-    type: 2}
-  m_PrefabInternal: {fileID: 20992356}
+  blackDefault: 0
 --- !u!1 &1408462210
 GameObject:
   m_ObjectHideFlags: 0
@@ -27301,7 +25737,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1408462213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27400,7 +25836,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1417391196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27500,7 +25936,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1429009241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27615,7 +26051,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1452258796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27768,7 +26204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1458151656
 GameObject:
   m_ObjectHideFlags: 0
@@ -27813,7 +26249,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1458151659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27912,7 +26348,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1461085941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28011,7 +26447,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1462123258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28110,7 +26546,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1462796375
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28209,7 +26645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1474804440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28362,7 +26798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1485635464
 GameObject:
   m_ObjectHideFlags: 0
@@ -28407,7 +26843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1485635467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28506,7 +26942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1497918248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28605,7 +27041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1503562712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28704,7 +27140,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1504699507
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28803,7 +27239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1507426265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28858,98 +27294,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1507426262}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1514234858
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1514234859}
-  - component: {fileID: 1514234862}
-  - component: {fileID: 1514234861}
-  - component: {fileID: 1514234860}
-  m_Layer: 0
-  m_Name: Event_6
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1514234859
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1514234858}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1514234860
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1514234858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 760fc3f5acc083c488b7a02461353a0d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  subtileInfos:
-  - text: Of course... it was the white...
-    time: 5
-  - text: How could I've forgotten...
-    time: 5
-  - text: I had the impression that a way bigger world was now open...
-    time: 5
---- !u!114 &1514234861
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1514234858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1514234860}
-        m_MethodName: Execute
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Colors... Colors are the base of our universe...
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
---- !u!114 &1514234862
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1514234858}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 341905886}
-  enterActions: {fileID: 1514234861}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 19
 --- !u!1 &1518076321
 GameObject:
   m_ObjectHideFlags: 0
@@ -29048,7 +27392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1527159138
 GameObject:
   m_ObjectHideFlags: 0
@@ -29093,7 +27437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1527159141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29246,7 +27590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1537530823
 GameObject:
   m_ObjectHideFlags: 0
@@ -29291,7 +27635,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1537530826
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29444,7 +27788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1548237989
 GameObject:
   m_ObjectHideFlags: 0
@@ -29489,7 +27833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1548237992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29642,7 +27986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1553749038
 GameObject:
   m_ObjectHideFlags: 0
@@ -29687,7 +28031,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1553749041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29786,7 +28130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1557209299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29885,7 +28229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1562490983
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29984,7 +28328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1563243285
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30083,7 +28427,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1583865447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30236,7 +28580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1587838084
 GameObject:
   m_ObjectHideFlags: 0
@@ -30281,7 +28625,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1587838087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30380,7 +28724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1590167549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30533,7 +28877,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1599331804
 GameObject:
   m_ObjectHideFlags: 0
@@ -30578,7 +28922,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1599331807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30677,7 +29021,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1601122117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30830,7 +29174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1612784834
 GameObject:
   m_ObjectHideFlags: 0
@@ -30876,7 +29220,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1612784837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30991,7 +29335,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1620568392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31046,104 +29390,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1620568389}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1624752216
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1198188444187390, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1624752218}
-  - component: {fileID: 1624752217}
-  - component: {fileID: 1624752219}
-  m_Layer: 0
-  m_Name: Event_13
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1624752217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1624752216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3f360d4f762c40f45bfd1eb04d0925a4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 1308534302}
-  enterActions: {fileID: 0}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 1624752219}
-  triggerToCheck: {fileID: 1020212944}
-  desactivateTriggerAfterUse: 1
---- !u!4 &1624752218
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4555354120732914, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1624752216}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1624752219
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1624752216}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1799827742}
-        m_MethodName: SetCanMove
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1799827741}
-        m_MethodName: SetCanMove
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1400642831}
-        m_MethodName: FadeIn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1638019113
 GameObject:
   m_ObjectHideFlags: 0
@@ -31188,7 +29434,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1638019116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31287,7 +29533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1640002656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31386,7 +29632,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1651861869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31485,7 +29731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1657114723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31584,7 +29830,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1666915487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31737,7 +29983,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1669501862
 GameObject:
   m_ObjectHideFlags: 0
@@ -31836,7 +30082,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1675089988
 GameObject:
   m_ObjectHideFlags: 0
@@ -31881,7 +30127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1675089991
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31980,7 +30226,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1676212240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32133,7 +30379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1689989705
 GameObject:
   m_ObjectHideFlags: 0
@@ -32232,7 +30478,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1693765956
 GameObject:
   m_ObjectHideFlags: 0
@@ -32277,7 +30523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1693765959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32376,7 +30622,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1701222797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32475,7 +30721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1702156771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32628,7 +30874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1708887186
 GameObject:
   m_ObjectHideFlags: 0
@@ -32673,7 +30919,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1708887189
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32772,7 +31018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1711004846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32871,7 +31117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1728826913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32970,7 +31216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1732068798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33069,7 +31315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1733273423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33168,7 +31414,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1734751563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33321,7 +31567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1750974042
 GameObject:
   m_ObjectHideFlags: 0
@@ -33366,7 +31612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1750974045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33465,7 +31711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1768291760
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33564,7 +31810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1779463378
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33663,7 +31909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1789294919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33762,7 +32008,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1791096245
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33861,7 +32107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1793771404
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33916,18 +32162,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1793771401}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1799827741 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114201421897812442, guid: cff7f16035113064faee887963787283,
-    type: 2}
-  m_PrefabInternal: {fileID: 20992356}
-  m_Script: {fileID: 11500000, guid: 0a1e98de28f5a4c4aaa0778753172c5d, type: 3}
---- !u!114 &1799827742 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114102747736446544, guid: cff7f16035113064faee887963787283,
-    type: 2}
-  m_PrefabInternal: {fileID: 20992356}
-  m_Script: {fileID: 11500000, guid: 8112696e2785935499c9b3c2a08a21c7, type: 3}
 --- !u!4 &1800617367
 Transform:
   m_ObjectHideFlags: 0
@@ -33940,24 +32174,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 659862072}
-  - {fileID: 1954091322}
-  - {fileID: 944896037}
-  - {fileID: 597872891}
-  - {fileID: 333891970}
-  - {fileID: 155791310}
-  - {fileID: 271589555}
-  - {fileID: 1514234859}
-  - {fileID: 341905883}
-  - {fileID: 1395475572}
-  - {fileID: 494933207}
-  - {fileID: 1971595307}
-  - {fileID: 392098895}
-  - {fileID: 682078247}
-  - {fileID: 453954928}
-  - {fileID: 1624752218}
-  - {fileID: 1308534305}
-  - {fileID: 187388466}
-  - {fileID: 141525386}
+  - {fileID: 1937432319}
   - {fileID: 260721972}
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -33999,7 +32216,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4863106109333830, guid: 8262175c891d5484b9d6800ca485b3d7, type: 2}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8262175c891d5484b9d6800ca485b3d7, type: 2}
@@ -34048,7 +32265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1807384950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34147,7 +32364,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1810187502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34300,7 +32517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1840144499
 GameObject:
   m_ObjectHideFlags: 0
@@ -34345,7 +32562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1840144502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34444,7 +32661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1840168993
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34543,7 +32760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1840475152
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34696,7 +32913,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1856836701
 GameObject:
   m_ObjectHideFlags: 0
@@ -34741,7 +32958,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1856836704
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34840,7 +33057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1867427051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34939,7 +33156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1868712781
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35038,7 +33255,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1868909862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35191,7 +33408,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1879549792
 GameObject:
   m_ObjectHideFlags: 0
@@ -35236,7 +33453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1879549795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35335,7 +33552,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1879645799
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35434,7 +33651,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1884516220
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35533,7 +33750,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1890093534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35632,7 +33849,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1890450441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35731,7 +33948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1890865567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35830,7 +34047,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1892948979
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35983,7 +34200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1898773609
 GameObject:
   m_ObjectHideFlags: 0
@@ -36028,7 +34245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1898773612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36181,7 +34398,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1921188644
 GameObject:
   m_ObjectHideFlags: 0
@@ -36226,7 +34443,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1921188647
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36325,7 +34542,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1921919871
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36478,7 +34695,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1931808082
 GameObject:
   m_ObjectHideFlags: 0
@@ -36523,7 +34740,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1931808085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36676,7 +34893,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &1936048885
 GameObject:
   m_ObjectHideFlags: 0
@@ -36721,7 +34938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1936048888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36776,6 +34993,94 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1936048885}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1937432315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1937432319}
+  - component: {fileID: 1937432316}
+  - component: {fileID: 1937432317}
+  - component: {fileID: 1937432318}
+  m_Layer: 0
+  m_Name: Event_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1937432316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937432315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nextGameState: {fileID: 260721971}
+  enterActions: {fileID: 1937432317}
+  updateActions: {fileID: 0}
+  exitActions: {fileID: 0}
+  timeToWait: 9
+--- !u!114 &1937432317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937432315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1937432318}
+        m_MethodName: Execute
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &1937432318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937432315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 760fc3f5acc083c488b7a02461353a0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  subtileInfos:
+  - text: What was this room...
+    time: 5
+--- !u!4 &1937432319
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1937432315}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1800617367}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1950908532
 GameObject:
   m_ObjectHideFlags: 0
@@ -36820,7 +35125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1950908535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36875,175 +35180,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1950908532}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1954091321
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1954091322}
-  - component: {fileID: 1954091323}
-  - component: {fileID: 1954091325}
-  - component: {fileID: 1954091324}
-  m_Layer: 0
-  m_Name: Event_1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1954091322
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1954091321}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1954091323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1954091321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 944896040}
-  enterActions: {fileID: 1954091325}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 5
---- !u!82 &1954091324
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1954091321}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 1f302605fd4b42b4c9aaed254a0b9892, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &1954091325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1954091321}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ab549af556da597458286f268f532f27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  events:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1954091324}
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1954755052
 GameObject:
   m_ObjectHideFlags: 0
@@ -37088,7 +35224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1954755055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37187,7 +35323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1959551663
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37286,7 +35422,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1961423932
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37341,53 +35477,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1961423929}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1971595305
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1356140012501946, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1971595307}
-  - component: {fileID: 1971595306}
-  m_Layer: 0
-  m_Name: Event_10
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1971595306
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1971595305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c8f7ebdf1a819d4f8f07fc4e399a425, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nextGameState: {fileID: 392098894}
-  enterActions: {fileID: 0}
-  updateActions: {fileID: 0}
-  exitActions: {fileID: 0}
-  timeToWait: 1
---- !u!4 &1971595307
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4750206548956482, guid: 14502bca60ddbd546af6fb3424cac33d,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1971595305}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1800617367}
-  m_RootOrder: 11
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1973297371
 GameObject:
   m_ObjectHideFlags: 0
@@ -37432,7 +35521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1973297374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37531,7 +35620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1978320267
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37630,7 +35719,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1981180030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37729,7 +35818,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1983819543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37828,7 +35917,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1991143448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37927,7 +36016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1999685441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38026,7 +36115,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &1999732768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38125,7 +36214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2007575716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38224,7 +36313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2008556512
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38279,105 +36368,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2008556509}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &2012245378
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2012245383}
-  - component: {fileID: 2012245382}
-  - component: {fileID: 2012245381}
-  - component: {fileID: 2012245380}
-  - component: {fileID: 2012245379}
-  m_Layer: 0
-  m_Name: WhiteCube
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2012245379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2012245378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 23d61ca0e06975742b4c30ed41e1c1bf, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  colorCube: 1
-  blackDefault: 0
---- !u!65 &2012245380
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2012245378}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &2012245381
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2012245378}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 8899b3b89a33dfd48be3a45adb7c8e36, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &2012245382
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2012245378}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &2012245383
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2012245378}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: 2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2013110942
 GameObject:
   m_ObjectHideFlags: 0
@@ -38422,7 +36412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2013110945
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38521,7 +36511,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2015283401
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38620,7 +36610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2016999636
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38719,7 +36709,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2019804518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38818,7 +36808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2022149050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38971,7 +36961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &2039991004
 GameObject:
   m_ObjectHideFlags: 0
@@ -39016,7 +37006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2039991007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39115,7 +37105,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2050847950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39214,7 +37204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2064651646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39313,7 +37303,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2069724756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39412,7 +37402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2072189806
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39565,7 +37555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &2080077825
 GameObject:
   m_ObjectHideFlags: 0
@@ -39610,7 +37600,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2080077828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39763,7 +37753,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!1 &2098279521
 GameObject:
   m_ObjectHideFlags: 0
@@ -39808,7 +37798,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2098279524
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39907,7 +37897,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2106588271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40006,7 +37996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2109343317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40105,7 +38095,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2112520883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40204,7 +38194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2123924361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40303,7 +38293,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2128127327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40402,7 +38392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2131520061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40501,7 +38491,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  blackDefault: 0
 --- !u!65 &2144876686
 BoxCollider:
   m_ObjectHideFlags: 0
