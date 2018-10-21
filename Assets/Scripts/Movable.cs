@@ -18,6 +18,35 @@ public class Movable : MonoBehaviour
     private void Start()
     {
         _transform = transform;
+        PlayerAbilities pa = FindObjectOfType<PlayerAbilities>();
+        ColorizedCube cc = GetComponent<ColorizedCube>();
+        if(pa != null && cc != null)
+        {
+            if (cc.GetColorCube() == ColorCube.WHITE && pa.haveWhite)
+            {
+                _canMove = true;
+                cc.ChangeColor();
+                Debug.Log("lol");
+            }
+            else if (cc.GetColorCube() == ColorCube.RED && pa.haveRed)
+            {
+                _canMove = true;
+                cc.ChangeColor();
+                Debug.Log("lol1");
+            }
+            else if (cc.GetColorCube() == ColorCube.GREEN && pa.haveGreen)
+            {
+                _canMove = true;
+                cc.ChangeColor();
+                Debug.Log("lol2");
+            }
+            else if (cc.GetColorCube() == ColorCube.BLUE && pa.haveBlue)
+            {
+                _canMove = true;
+                cc.ChangeColor();
+                Debug.Log("lol3");
+            }
+        }
     }
     #endregion
 

@@ -211,7 +211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &13500785
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,7 +312,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1001 &20992356
 Prefab:
   m_ObjectHideFlags: 0
@@ -402,7 +406,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &32384423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -555,7 +561,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &39710250
 GameObject:
   m_ObjectHideFlags: 0
@@ -600,7 +608,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &39710253
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -753,7 +763,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &55123881
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,7 +810,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &55123884
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -897,7 +911,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &75092847
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -996,7 +1012,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &84834560
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1095,7 +1113,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &86207432
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1194,7 +1214,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &104375278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1347,7 +1369,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &117024332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1392,7 +1416,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &117024335
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1491,7 +1517,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &122682203
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1590,7 +1618,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &123744035
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1689,7 +1719,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &124593469
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1788,7 +1820,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &124960371
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2086,7 +2120,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &142990374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2185,7 +2221,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &144075141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2373,7 +2411,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &160562499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2472,7 +2512,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &163475742
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2571,7 +2613,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &164818426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2670,7 +2714,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &165294206
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2769,7 +2815,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &167091605
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2934,7 +2982,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &172773499
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3033,7 +3083,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &179705970
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3205,7 +3257,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &191211643
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3304,7 +3358,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &204796276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3403,7 +3459,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &207933346
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3502,7 +3560,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &210418468
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3601,7 +3661,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &216230692
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3700,7 +3762,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &218646347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3799,7 +3863,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &227676986
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3898,7 +3964,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &232128530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4051,7 +4119,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &236865297
 GameObject:
   m_ObjectHideFlags: 0
@@ -4150,7 +4220,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &255395704
 GameObject:
   m_ObjectHideFlags: 0
@@ -4249,7 +4321,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &260721970
 GameObject:
   m_ObjectHideFlags: 0
@@ -4370,7 +4444,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &261397067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4469,7 +4545,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &264614059
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4670,7 +4748,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &295171637
 GameObject:
   m_ObjectHideFlags: 0
@@ -4715,7 +4795,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &295171640
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4814,7 +4896,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &297310763
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4913,7 +4997,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &302510940
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5012,7 +5098,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &305134530
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5165,7 +5253,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &332989506
 GameObject:
   m_ObjectHideFlags: 0
@@ -5210,7 +5300,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &332989509
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5474,7 +5566,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &346532423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5627,7 +5721,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &350052042
 GameObject:
   m_ObjectHideFlags: 0
@@ -5672,7 +5768,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &350052045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5771,7 +5869,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &357567491
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5870,7 +5970,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &359793466
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5969,7 +6071,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &373066262
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6068,7 +6172,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &373454247
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6167,7 +6273,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &379113454
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6266,7 +6374,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &380150528
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6365,7 +6475,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &391386714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6648,7 +6760,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &401964178
 GameObject:
   m_ObjectHideFlags: 0
@@ -6693,7 +6807,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &401964181
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6792,7 +6908,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &404238817
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6891,7 +7009,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &409487517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6990,7 +7110,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &413641550
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7089,7 +7211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &423559009
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7242,7 +7366,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &431269397
 GameObject:
   m_ObjectHideFlags: 0
@@ -7287,7 +7413,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &431269400
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7440,7 +7568,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &435041093
 GameObject:
   m_ObjectHideFlags: 0
@@ -7539,7 +7669,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &438840646
 GameObject:
   m_ObjectHideFlags: 0
@@ -7584,7 +7716,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &438840649
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7737,7 +7871,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &440335121
 GameObject:
   m_ObjectHideFlags: 0
@@ -7890,7 +8026,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &441804951
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8043,7 +8181,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &453954925
 GameObject:
   m_ObjectHideFlags: 0
@@ -8172,7 +8312,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &455168114
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8271,7 +8413,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &455173734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8424,7 +8568,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &458746245
 GameObject:
   m_ObjectHideFlags: 0
@@ -8469,7 +8615,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &458746248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8568,7 +8716,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &464333556
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8668,7 +8818,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &466161445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8783,7 +8935,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &468339683
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8936,7 +9090,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &484273344
 GameObject:
   m_ObjectHideFlags: 0
@@ -8981,7 +9137,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &484273347
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9080,7 +9238,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &491869289
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9309,7 +9469,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &512993649
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9409,7 +9571,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &516704328
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9524,7 +9688,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &520753010
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9623,7 +9789,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &521023627
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9722,7 +9890,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &521698185
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9875,7 +10045,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &525668914
 GameObject:
   m_ObjectHideFlags: 0
@@ -9920,7 +10092,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &525668917
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10019,7 +10193,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &540878990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10118,7 +10294,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &542533351
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10217,7 +10395,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &551850132
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10316,7 +10496,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &554863223
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10415,7 +10597,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &578395638
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10514,7 +10698,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &578408296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10613,7 +10799,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &578636428
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10712,7 +10900,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &587382427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10811,7 +11001,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &590232603
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -10910,7 +11102,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &596508714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11095,7 +11289,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &601081939
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11194,7 +11390,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &602041490
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11293,7 +11491,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &608779805
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11446,7 +11646,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &643155067
 GameObject:
   m_ObjectHideFlags: 0
@@ -11491,7 +11693,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &643155070
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11765,7 +11969,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &661445707
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11864,7 +12070,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &669595848
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -11963,7 +12171,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &672124494
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12062,7 +12272,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &672899252
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12279,7 +12491,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &692515120
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12379,7 +12593,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &701902744
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12494,7 +12710,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &705442269
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12593,7 +12811,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &712328517
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12692,7 +12912,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &717549238
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12845,7 +13067,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &725776350
 GameObject:
   m_ObjectHideFlags: 0
@@ -12890,7 +13114,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &725776353
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12989,7 +13215,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &731877746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13142,7 +13370,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &745599040
 GameObject:
   m_ObjectHideFlags: 0
@@ -13187,7 +13417,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &745599043
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13286,7 +13518,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &750921101
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13439,7 +13673,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &754548188
 GameObject:
   m_ObjectHideFlags: 0
@@ -13484,7 +13720,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &754548191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13583,7 +13821,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &761542069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13682,7 +13922,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &764686191
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13781,7 +14023,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &765341812
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13880,7 +14124,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &766487239
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13979,7 +14225,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &773418938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14078,7 +14326,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &780859336
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14231,7 +14481,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &794506741
 GameObject:
   m_ObjectHideFlags: 0
@@ -14330,7 +14582,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &795129986
 GameObject:
   m_ObjectHideFlags: 0
@@ -14375,7 +14629,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &795129989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14474,7 +14730,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &818490857
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14573,7 +14831,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &827894981
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14672,7 +14932,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &837907912
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14771,7 +15033,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &840461746
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -14870,7 +15134,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &841895563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15023,7 +15289,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1001 &844602925
 Prefab:
   m_ObjectHideFlags: 0
@@ -15172,7 +15440,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &850555049
 GameObject:
   m_ObjectHideFlags: 0
@@ -15271,7 +15541,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &851656297
 GameObject:
   m_ObjectHideFlags: 0
@@ -15316,7 +15588,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &851656300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15415,7 +15689,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &853184740
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15514,7 +15790,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &856995089
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15667,7 +15945,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &860875502
 GameObject:
   m_ObjectHideFlags: 0
@@ -15766,7 +16046,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &864124732
 GameObject:
   m_ObjectHideFlags: 0
@@ -15865,7 +16147,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &864947288
 GameObject:
   m_ObjectHideFlags: 0
@@ -15910,7 +16194,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &864947291
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16009,7 +16295,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &865036405
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16108,7 +16396,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &878270863
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16207,7 +16497,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &879242961
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16306,7 +16598,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &881935438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16459,7 +16753,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &887468931
 GameObject:
   m_ObjectHideFlags: 0
@@ -16504,7 +16800,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &887468934
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16603,7 +16901,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &891688157
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16702,7 +17002,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &900218438
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16801,7 +17103,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &902800069
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16900,7 +17204,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &905679141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -16999,7 +17305,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &908871443
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17098,7 +17406,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &916407323
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17251,7 +17561,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &930783720
 GameObject:
   m_ObjectHideFlags: 0
@@ -17296,7 +17608,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &930783723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17395,7 +17709,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &935824440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17494,7 +17810,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &936152938
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17593,7 +17911,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &937582234
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17746,7 +18066,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &944896036
 GameObject:
   m_ObjectHideFlags: 0
@@ -17881,7 +18203,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &944996259
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18034,7 +18358,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &961867025
 GameObject:
   m_ObjectHideFlags: 0
@@ -18079,7 +18405,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &961867028
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18178,7 +18506,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &963421150
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18277,7 +18607,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &963479389
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18430,7 +18762,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &970219594
 GameObject:
   m_ObjectHideFlags: 0
@@ -18475,7 +18809,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &970219597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18574,7 +18910,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &970874067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18673,7 +19011,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &973624617
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -18826,7 +19166,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &989281297
 GameObject:
   m_ObjectHideFlags: 0
@@ -18871,7 +19213,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &989281300
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19102,7 +19446,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1001835623
 GameObject:
   m_ObjectHideFlags: 0
@@ -19147,7 +19493,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1001835626
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19246,7 +19594,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1002317299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19345,7 +19695,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1010763870
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19444,7 +19796,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1018914434
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19657,7 +20011,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1022152962
 GameObject:
   m_ObjectHideFlags: 0
@@ -19720,6 +20076,54 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1022654266
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4794163305009840, guid: 473f10fc3469b0e46839fa86eeaba76e, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794163305009840, guid: 473f10fc3469b0e46839fa86eeaba76e, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794163305009840, guid: 473f10fc3469b0e46839fa86eeaba76e, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794163305009840, guid: 473f10fc3469b0e46839fa86eeaba76e, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794163305009840, guid: 473f10fc3469b0e46839fa86eeaba76e, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794163305009840, guid: 473f10fc3469b0e46839fa86eeaba76e, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794163305009840, guid: 473f10fc3469b0e46839fa86eeaba76e, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4794163305009840, guid: 473f10fc3469b0e46839fa86eeaba76e, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 473f10fc3469b0e46839fa86eeaba76e, type: 2}
+  m_IsPrefabAsset: 0
+--- !u!114 &1022654267 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114759748900170182, guid: 473f10fc3469b0e46839fa86eeaba76e,
+    type: 2}
+  m_PrefabInternal: {fileID: 1022654266}
+  m_Script: {fileID: 11500000, guid: 08be374b8ee000847861ce404098e4bc, type: 3}
 --- !u!1 &1024174879
 GameObject:
   m_ObjectHideFlags: 0
@@ -19765,7 +20169,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1024174882
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19880,7 +20286,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1034308235
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20033,7 +20441,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1043312626
 GameObject:
   m_ObjectHideFlags: 0
@@ -20132,7 +20542,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1043921120
 GameObject:
   m_ObjectHideFlags: 0
@@ -20177,7 +20589,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1043921123
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20282,7 +20696,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1064287561
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20381,7 +20797,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1066419714
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20480,7 +20898,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1075148305
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20579,7 +20999,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1079200866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20678,7 +21100,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1080656413
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20777,7 +21201,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1082257427
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20876,7 +21302,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1104287513
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20975,7 +21403,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1111438030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21074,7 +21504,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1115930635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21227,7 +21659,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1122269772
 GameObject:
   m_ObjectHideFlags: 0
@@ -21272,7 +21706,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1122269775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21371,7 +21807,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1130386920
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21470,7 +21908,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1135642701
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21569,7 +22009,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1143680976
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21668,7 +22110,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1156757329
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21767,7 +22211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1159753399
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21866,7 +22312,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1173565445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -21965,7 +22413,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1176475511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22118,7 +22568,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1180982125
 GameObject:
   m_ObjectHideFlags: 0
@@ -22163,7 +22615,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1180982128
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22262,7 +22716,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1181418533
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22361,7 +22817,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1184257304
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22514,7 +22972,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1192545508
 GameObject:
   m_ObjectHideFlags: 0
@@ -22559,7 +23019,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1192545511
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22658,7 +23120,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1193272535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -22757,7 +23221,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1205477493
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23025,7 +23491,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1224121296
 GameObject:
   m_ObjectHideFlags: 0
@@ -23070,7 +23538,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1224121299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23169,7 +23639,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1224672824
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23268,7 +23740,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1228357558
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23367,7 +23841,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1228373426
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23466,7 +23942,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1242244866
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23565,7 +24043,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1246894545
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23718,7 +24198,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1251549642
 GameObject:
   m_ObjectHideFlags: 0
@@ -23763,7 +24245,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1251549645
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23862,7 +24346,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1254682766
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -23961,7 +24447,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1263947826
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24060,7 +24548,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1265044309
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24213,7 +24703,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1283059457
 GameObject:
   m_ObjectHideFlags: 0
@@ -24258,7 +24750,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1283059460
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24357,7 +24851,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1289347244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24456,7 +24952,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1297012947
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24555,7 +25053,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1298542597
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -24739,7 +25239,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1308534301
 GameObject:
   m_ObjectHideFlags: 0
@@ -24911,7 +25413,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1313489977
 GameObject:
   m_ObjectHideFlags: 0
@@ -25200,7 +25704,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1315976403
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25299,7 +25805,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1316435496
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25398,7 +25906,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1318437048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25497,7 +26007,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1337738118
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25596,7 +26108,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1338388540
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25749,7 +26263,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1358954428
 GameObject:
   m_ObjectHideFlags: 0
@@ -25794,7 +26310,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1358954431
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25893,7 +26411,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1361430340
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -25992,7 +26512,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1370884718
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26091,7 +26613,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1374486859
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26190,7 +26714,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1375475445
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26343,7 +26869,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1377133267
 GameObject:
   m_ObjectHideFlags: 0
@@ -26442,7 +26970,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1378452987
 GameObject:
   m_ObjectHideFlags: 0
@@ -26487,7 +27017,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1378452990
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26640,7 +27172,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1381477520
 GameObject:
   m_ObjectHideFlags: 0
@@ -26685,7 +27219,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1381477523
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26838,7 +27374,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1392813801
 GameObject:
   m_ObjectHideFlags: 0
@@ -26883,7 +27421,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1392813804
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26982,7 +27522,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1394321144
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27251,7 +27793,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1407547448 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1454170441780578, guid: cff7f16035113064faee887963787283,
@@ -27301,7 +27845,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1408462213
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27400,7 +27946,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1417391196
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27500,7 +28048,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1429009241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27615,7 +28165,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1452258796
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27768,7 +28320,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1458151656
 GameObject:
   m_ObjectHideFlags: 0
@@ -27813,7 +28367,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1458151659
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27912,7 +28468,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1461085941
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28011,7 +28569,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1462123258
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28110,7 +28670,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1462796375
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28209,7 +28771,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1474804440
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28362,7 +28926,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1485635464
 GameObject:
   m_ObjectHideFlags: 0
@@ -28407,7 +28973,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1485635467
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28506,7 +29074,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1497918248
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28605,7 +29175,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1503562712
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28704,7 +29276,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1504699507
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28803,7 +29377,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1507426265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28932,6 +29508,17 @@ MonoBehaviour:
           m_StringArgument: Colors... Colors are the base of our universe...
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1022654267}
+        m_MethodName: ActivateAbilities
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1514234862
@@ -29048,7 +29635,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1527159138
 GameObject:
   m_ObjectHideFlags: 0
@@ -29093,7 +29682,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1527159141
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29246,7 +29837,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1537530823
 GameObject:
   m_ObjectHideFlags: 0
@@ -29291,7 +29884,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1537530826
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29444,7 +30039,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1548237989
 GameObject:
   m_ObjectHideFlags: 0
@@ -29489,7 +30086,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1548237992
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29642,7 +30241,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1553749038
 GameObject:
   m_ObjectHideFlags: 0
@@ -29687,7 +30288,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1553749041
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29786,7 +30389,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1557209299
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29885,7 +30490,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1562490983
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -29984,7 +30591,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1563243285
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30083,7 +30692,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1583865447
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30236,7 +30847,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1587838084
 GameObject:
   m_ObjectHideFlags: 0
@@ -30281,7 +30894,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1587838087
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30380,7 +30995,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1590167549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30533,7 +31150,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1599331804
 GameObject:
   m_ObjectHideFlags: 0
@@ -30578,7 +31197,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1599331807
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30677,7 +31298,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1601122117
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30830,7 +31453,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1612784834
 GameObject:
   m_ObjectHideFlags: 0
@@ -30876,7 +31501,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1612784837
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -30991,7 +31618,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1620568392
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31188,7 +31817,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1638019116
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31287,7 +31918,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1640002656
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31386,7 +32019,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1651861869
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31485,7 +32120,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1657114723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31584,7 +32221,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1666915487
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31737,7 +32376,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1669501862
 GameObject:
   m_ObjectHideFlags: 0
@@ -31836,7 +32477,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1675089988
 GameObject:
   m_ObjectHideFlags: 0
@@ -31881,7 +32524,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1675089991
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -31980,7 +32625,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1676212240
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32133,7 +32780,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1689989705
 GameObject:
   m_ObjectHideFlags: 0
@@ -32232,7 +32881,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1693765956
 GameObject:
   m_ObjectHideFlags: 0
@@ -32277,7 +32928,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1693765959
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32376,7 +33029,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1701222797
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32475,7 +33130,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1702156771
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32628,7 +33285,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1708887186
 GameObject:
   m_ObjectHideFlags: 0
@@ -32673,7 +33332,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1708887189
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32772,7 +33433,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1711004846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32871,7 +33534,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1728826913
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -32970,7 +33635,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1732068798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33069,7 +33736,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1733273423
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33168,7 +33837,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1734751563
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33321,7 +33992,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1750974042
 GameObject:
   m_ObjectHideFlags: 0
@@ -33366,7 +34039,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1750974045
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33465,7 +34140,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1768291760
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33564,7 +34241,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1779463378
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33663,7 +34342,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1789294919
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33762,7 +34443,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1791096245
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33861,7 +34544,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1793771404
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34048,7 +34733,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1807384950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34147,7 +34834,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1810187502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34300,7 +34989,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1840144499
 GameObject:
   m_ObjectHideFlags: 0
@@ -34345,7 +35036,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1840144502
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34444,7 +35137,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1840168993
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34543,7 +35238,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1840475152
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34696,7 +35393,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1856836701
 GameObject:
   m_ObjectHideFlags: 0
@@ -34741,7 +35440,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1856836704
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34840,7 +35541,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1867427051
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -34939,7 +35642,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1868712781
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35038,7 +35743,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1868909862
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35191,7 +35898,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1879549792
 GameObject:
   m_ObjectHideFlags: 0
@@ -35236,7 +35945,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1879549795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35335,7 +36046,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1879645799
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35434,7 +36147,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1884516220
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35533,7 +36248,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1890093534
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35632,7 +36349,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1890450441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35731,7 +36450,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1890865567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35830,7 +36551,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1892948979
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -35983,7 +36706,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1898773609
 GameObject:
   m_ObjectHideFlags: 0
@@ -36028,7 +36753,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1898773612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36181,7 +36908,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1921188644
 GameObject:
   m_ObjectHideFlags: 0
@@ -36226,7 +36955,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1921188647
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36325,7 +37056,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1921919871
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36478,7 +37211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1931808082
 GameObject:
   m_ObjectHideFlags: 0
@@ -36523,7 +37258,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1931808085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36676,7 +37413,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &1936048885
 GameObject:
   m_ObjectHideFlags: 0
@@ -36721,7 +37460,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1936048888
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -36820,7 +37561,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1950908535
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37088,7 +37831,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1954755055
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37187,7 +37932,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1959551663
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37286,7 +38033,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1961423932
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37432,7 +38181,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1973297374
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37531,7 +38282,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1978320267
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37630,7 +38383,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1981180030
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37729,7 +38484,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1983819543
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37828,7 +38585,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1991143448
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -37927,7 +38686,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1999685441
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38026,7 +38787,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &1999732768
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38125,7 +38888,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2007575716
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38224,7 +38989,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2008556512
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38310,7 +39077,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 1
-  blackDefault: 0
+  baseColorCube: 0
+  useDefaultColor: 0
+  setColorAtStart: 0
 --- !u!65 &2012245380
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38422,7 +39191,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2013110945
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38521,7 +39292,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2015283401
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38620,7 +39393,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2016999636
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38719,7 +39494,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2019804518
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38818,7 +39595,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2022149050
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -38971,7 +39750,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &2039991004
 GameObject:
   m_ObjectHideFlags: 0
@@ -39016,7 +39797,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2039991007
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39115,7 +39898,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2050847950
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39214,7 +39999,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2064651646
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39313,7 +40100,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2069724756
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39412,7 +40201,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2072189806
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39565,7 +40356,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &2080077825
 GameObject:
   m_ObjectHideFlags: 0
@@ -39610,7 +40403,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2080077828
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39763,7 +40558,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!1 &2098279521
 GameObject:
   m_ObjectHideFlags: 0
@@ -39808,7 +40605,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2098279524
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39907,7 +40706,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2106588271
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40006,7 +40807,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2109343317
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40105,7 +40908,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2112520883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40204,7 +41009,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2123924361
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40303,7 +41110,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2128127327
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40402,7 +41211,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2131520061
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -40501,7 +41312,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   colorCube: 5
-  blackDefault: 1
+  baseColorCube: 0
+  useDefaultColor: 1
+  setColorAtStart: 0
 --- !u!65 &2144876686
 BoxCollider:
   m_ObjectHideFlags: 0
