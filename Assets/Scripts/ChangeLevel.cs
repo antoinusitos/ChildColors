@@ -7,6 +7,7 @@ public class ChangeLevel : MonoBehaviour
 {
     #region Public Fields
     public int nextLevel = 0;
+    public int currentLevel = 0;
     #endregion
 
     #region Private Fields
@@ -26,7 +27,14 @@ public class ChangeLevel : MonoBehaviour
     #region Public Methods
     public void LoadNextLevel()
     {
-        SceneManager.LoadScene(nextLevel);
+        MultiScene.GetInstance().LoadScene(nextLevel);
+        MultiScene.GetInstance().ActiveGameManager(nextLevel);
+    }
+
+    public void UnloadLevel()
+    {
+        MultiScene.GetInstance().UnloadScene(currentLevel);
+        MultiScene.GetInstance().UnactiveGameManager(currentLevel);
     }
     #endregion
 

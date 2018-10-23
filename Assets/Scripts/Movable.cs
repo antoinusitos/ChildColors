@@ -26,25 +26,21 @@ public class Movable : MonoBehaviour
             {
                 _canMove = true;
                 cc.ChangeColor();
-                Debug.Log("lol");
             }
             else if (cc.GetColorCube() == ColorCube.RED && pa.haveRed)
             {
                 _canMove = true;
                 cc.ChangeColor();
-                Debug.Log("lol1");
             }
             else if (cc.GetColorCube() == ColorCube.GREEN && pa.haveGreen)
             {
                 _canMove = true;
                 cc.ChangeColor();
-                Debug.Log("lol2");
             }
             else if (cc.GetColorCube() == ColorCube.BLUE && pa.haveBlue)
             {
                 _canMove = true;
                 cc.ChangeColor();
-                Debug.Log("lol3");
             }
         }
     }

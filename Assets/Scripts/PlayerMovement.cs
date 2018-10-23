@@ -68,8 +68,13 @@ public class PlayerMovement : MonoBehaviour
     {
         _canMove = newState;
     }
+
+    public void MovePlayerToPos(Transform pos)
+    {
+        transform.position = pos.position;
+    }
     #endregion
-	
-	#region Private Methods
+
+    #region Private Methods
     #endregion
 }

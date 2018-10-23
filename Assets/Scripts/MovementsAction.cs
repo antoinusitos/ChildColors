@@ -35,11 +35,11 @@ public class MovementsAction : MonoBehaviour
             Vector3 basePos = transform.position;
             while (timer < infos[i].time)
             {
-                transform.position = Vector3.Lerp(basePos, infos[i].pos, timer / infos[i].time);
+                transform.localPosition = Vector3.Lerp(basePos, infos[i].pos, timer / infos[i].time);
                 timer += Time.deltaTime;
                 yield return null;
             }
-            transform.position = infos[i].pos;
+            transform.localPosition = infos[i].pos;
         }
     }
     #endregion
