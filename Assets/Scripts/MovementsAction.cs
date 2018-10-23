@@ -32,7 +32,7 @@ public class MovementsAction : MonoBehaviour
         for(int i = 0; i < infos.Length; i++)
         {
             float timer = 0;
-            Vector3 basePos = transform.position;
+            Vector3 basePos = transform.localPosition;
             while (timer < infos[i].time)
             {
                 transform.localPosition = Vector3.Lerp(basePos, infos[i].pos, timer / infos[i].time);

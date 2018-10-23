@@ -82,7 +82,6 @@ public class ShowSubtiles : MonoBehaviour
         {
             col.a = Mathf.Lerp(0, 1, timer);
             text.color = col;
-            text.color = col;
             panel.color = Color.Lerp(colTransp, colPan, timer);
             timer += Time.deltaTime;
             yield return null;
