@@ -44,11 +44,31 @@ public class Data : MonoBehaviour
 	{
 		
 	}
-	#endregion
-	
-	#region Public Methods
     #endregion
-	
-	#region Private Methods
+
+    #region Public Methods
+    public static Color GetColor(ColorCube color)
+    {
+        switch (color)
+        {
+            case ColorCube.BLACK:
+                return Color.black;
+            case ColorCube.BLUE:
+                return Color.blue;
+            case ColorCube.GREEN:
+                return Color.green;
+            case ColorCube.RED:
+                return Color.red;
+            case ColorCube.WHITE:
+                return Color.white;
+            case ColorCube.GREY:
+                return Color.grey;
+            default:
+                return Color.white;
+        }
+    }
+    #endregion
+
+    #region Private Methods
     #endregion
 }

@@ -21,7 +21,7 @@ public class ColorizedCube : MonoBehaviour
     private void Start()
     {
         Init();
-        if (useDefaultColor) _renderer.material.color = GetColor(baseColorCube);
+        if (useDefaultColor) _renderer.material.color = Data.GetColor(baseColorCube);
         else if(setColorAtStart) _renderer.material.color = GetTargetColor();
     }
     #endregion
@@ -53,27 +53,6 @@ public class ColorizedCube : MonoBehaviour
     public Color GetTargetColor()
     {
         switch (colorCube)
-        {
-            case ColorCube.BLACK:
-                return Color.black;
-            case ColorCube.BLUE:
-                return Color.blue;
-            case ColorCube.GREEN:
-                return Color.green;
-            case ColorCube.RED:
-                return Color.red;
-            case ColorCube.WHITE:
-                return Color.white;
-            case ColorCube.GREY:
-                return Color.grey;
-            default:
-                return Color.white;
-        }
-    }
-
-    public Color GetColor(ColorCube color)
-    {
-        switch (color)
         {
             case ColorCube.BLACK:
                 return Color.black;

@@ -43,6 +43,13 @@ public class Laser : MonoBehaviour
                     receiver.SetTargetColor((int)cc.GetColorCube());
                     receiver.ChangeColor();
                 }
+                return;
+            }
+            LaserReceiver lr = hit.transform.GetComponent<LaserReceiver>();
+            if (lr != null)
+            {
+                _colorCube = ColorCube.BLACK;
+                _lineRenderer.material.color = Data.GetColor(_colorCube);
             }
         }
     }
