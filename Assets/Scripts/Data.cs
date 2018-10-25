@@ -17,6 +17,7 @@ public struct MovementsInfo
 {
     public Vector3 pos;
     public float time;
+    public AudioClip audio;
 }
 
 [System.Serializable]

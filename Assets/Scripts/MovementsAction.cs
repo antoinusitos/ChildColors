@@ -6,13 +6,19 @@ public class MovementsAction : MonoBehaviour
 {
     #region Public Fields
     public MovementsInfo[] infos = null;
+    public bool playSound = false;
     #endregion
 
     #region Private Fields
     private bool _moving = false;
+    private AudioSource _audioSource = null;
     #endregion
 
     #region Unity Methods
+    private void Start()
+    {
+        _audioSource = GetComponent<AudioSource>();
+    }
     #endregion
 
     #region Public Methods
@@ -31,6 +37,11 @@ public class MovementsAction : MonoBehaviour
     {
         for(int i = 0; i < infos.Length; i++)
         {
+            if(playSound)
+            {
+                _audioSource.clip = infos[i].audio;
+                _audioSource.Play();
+            }
             float timer = 0;
             Vector3 basePos = transform.localPosition;
             while (timer < infos[i].time)

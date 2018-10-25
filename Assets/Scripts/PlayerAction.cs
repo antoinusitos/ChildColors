@@ -6,6 +6,7 @@ public class PlayerAction : MonoBehaviour
 {
     #region Public Fields
     public Transform cameraPlayer = null;
+    public GameObject hand = null;
 	#endregion
 	
 	#region Private Fields
@@ -31,7 +32,25 @@ public class PlayerAction : MonoBehaviour
                 }
             }
         }
-	}
+
+        RaycastHit hitTest;
+        if (Physics.Raycast(cameraPlayer.position, cameraPlayer.forward, out hitTest, 2))
+        {
+            Movable m = hitTest.transform.GetComponent<Movable>();
+            if (m != null && m.GetCanMove())
+            {
+                hand.SetActive(true);
+            }
+            else
+            {
+                hand.SetActive(false);
+            }
+        }
+        else
+        {
+            hand.SetActive(false);
+        }
+    }
 	#endregion
 	
 	#region Public Methods
