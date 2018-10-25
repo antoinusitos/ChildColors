@@ -12,6 +12,7 @@ public class Movable : MonoBehaviour
     private bool _moving = false;
     private bool _canMove = false;
     private Transform _transform = null;
+    private bool _hasMoved = false;
     #endregion
 
     #region Unity Methods
@@ -55,12 +56,24 @@ public class Movable : MonoBehaviour
 
         _moving = true;
 
+        _hasMoved = true;
+
         StartCoroutine("MoveCube");
     }
 
     public bool GetIsMoving()
     {
         return _moving;
+    }
+
+    public bool GetCanMove()
+    {
+        return _canMove;
+    }
+
+    public bool GetHasMoved()
+    {
+        return _hasMoved;
     }
 
     public void SetCanMove(bool newState)
@@ -78,6 +91,11 @@ public class Movable : MonoBehaviour
             float timer = 0;
             Vector3 basePos = _transform.position;
             Vector3 finalPos = hit.point + hit.normal / 2;
+
+            StoppingMovement sm = hit.transform.GetComponent<StoppingMovement>();
+            if (sm != null)
+                finalPos = hit.point - hit.normal / 2;
+
             float dist = Vector3.Distance(basePos, finalPos);
             while (timer < dist)
             {
