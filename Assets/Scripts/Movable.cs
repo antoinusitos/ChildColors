@@ -84,6 +84,7 @@ public class Movable : MonoBehaviour
         RaycastHit hit; 
         if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
+            Transform lastHit = hit.transform;
             float timer = 0;
             Vector3 basePos = _transform.position;
             Vector3 finalPos = hit.point + hit.normal / 2;
@@ -98,6 +99,14 @@ public class Movable : MonoBehaviour
                 _transform.position = Vector3.Lerp(basePos, finalPos, timer / dist);
                 timer += Time.deltaTime * speed;
                 yield return null;
+                if (Physics.Raycast(transform.position, transform.forward, out hit))
+                {
+                    if(lastHit != hit.transform)
+                    {
+                        finalPos = hit.point + hit.normal / 2;
+                        dist = Vector3.Distance(basePos, finalPos);
+                    }
+                }
             }
             _transform.position = finalPos;
         }
