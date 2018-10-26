@@ -39,6 +39,11 @@ public class ColorizedCube : MonoBehaviour
         return colorCube;
     }
 
+    public void ForceChangeColor(int color)
+    {
+        _renderer.material.color = Data.GetColor((ColorCube)baseColorCube);
+    }
+
     public void SetTargetColor(int newColor)
     {
         colorCube = (ColorCube)newColor;
