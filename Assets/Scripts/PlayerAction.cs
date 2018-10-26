@@ -30,6 +30,12 @@ public class PlayerAction : MonoBehaviour
                 {
                     m.Move();
                 }
+
+                ResetButton rb = hit.transform.GetComponent<ResetButton>();
+                if (rb != null)
+                {
+                    rb.Execute();
+                }
             }
         }
 
@@ -43,7 +49,15 @@ public class PlayerAction : MonoBehaviour
             }
             else
             {
-                hand.SetActive(false);
+                ResetButton rb = hitTest.transform.GetComponent<ResetButton>();
+                if (rb != null)
+                {
+                    hand.SetActive(true);
+                }
+                else
+                {
+                    hand.SetActive(false);
+                }
             }
         }
         else
