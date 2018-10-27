@@ -7,6 +7,7 @@ public class MoveObjectsWithDelay : MonoBehaviour
     #region Public Fields
     public MovementsAction[] movementsActions = null;
     public float delay = 0;
+    public bool normalDirection = true;
 	#endregion
 	
 	#region Private Fields
@@ -27,7 +28,11 @@ public class MoveObjectsWithDelay : MonoBehaviour
     {
         for(int i = 0; i < movementsActions.Length; i++)
         {
-            movementsActions[i].ExecuteMovements();
+            if(normalDirection)
+                movementsActions[i].ExecuteMovements();
+            else
+                movementsActions[i].ExecuteReverMovements();
+
             yield return new WaitForSeconds(delay);
         }
     }

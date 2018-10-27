@@ -30,9 +30,39 @@ public class MovementsAction : MonoBehaviour
 
         StartCoroutine("Move");
     }
+
+    public void ExecuteReverMovements()
+    {
+        if (_moving) return;
+
+        _moving = false;
+
+        StartCoroutine("InvertMove");
+    }
     #endregion
 
     #region Private Methods
+    private IEnumerator InvertMove()
+    {
+        for (int i = infos.Length - 1; i > 0; i--)
+        {
+            if (playSound)
+            {
+                _audioSource.clip = infos[i].audio;
+                _audioSource.Play();
+            }
+            float timer = 0;
+            Vector3 basePos = transform.localPosition;
+            while (timer < infos[i].time)
+            {
+                transform.localPosition = Vector3.Lerp(basePos, infos[i].pos, timer / infos[i].time);
+                timer += Time.deltaTime;
+                yield return null;
+            }
+            transform.localPosition = infos[i].pos;
+        }
+    }
+
     private IEnumerator Move()
     {
         for(int i = 0; i < infos.Length; i++)
