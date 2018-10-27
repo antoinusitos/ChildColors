@@ -29,6 +29,11 @@ public class ResetButton : MonoBehaviour
         }
         postResetEvents.Invoke();
     }
+
+    public void SetCanReset(bool newState)
+    {
+        canReset = newState;
+    }
     #endregion
 	
 	#region Private Methods
