@@ -7,6 +7,7 @@ public class MovementsAction : MonoBehaviour
     #region Public Fields
     public MovementsInfo[] infos = null;
     public bool playSound = false;
+    public bool bypassMoving = false;
     #endregion
 
     #region Private Fields
@@ -26,19 +27,23 @@ public class MovementsAction : MonoBehaviour
     #region Public Methods
     public void ExecuteMovements()
     {
-        if (_moving) return;
+        if (_moving && !bypassMoving) return;
 
         _moving = true;
 
+        StopCoroutine("InvertMove");
+        StopCoroutine("Move");
         StartCoroutine("Move");
     }
 
     public void ExecuteReverMovements()
     {
-        if (_moving) return;
+        if (_moving && !bypassMoving) return;
 
         _moving = true;
 
+        StopCoroutine("Move");
+        StopCoroutine("InvertMove");
         StartCoroutine("InvertMove");
     }
     #endregion
@@ -46,8 +51,6 @@ public class MovementsAction : MonoBehaviour
     #region Private Methods
     private IEnumerator InvertMove()
     {
-        Debug.Log("InvertMove");
-
         for (int i = infos.Length - 1; i >= 0; i--)
         {
             if (playSound)
@@ -57,8 +60,6 @@ public class MovementsAction : MonoBehaviour
             }
             float timer = 0;
             Vector3 basePos = transform.localPosition;
-            Debug.Log("base:" + basePos);
-            Debug.Log("_localBasePos:" + _localBasePos);
 
             while (timer < infos[i].time)
             {
@@ -88,7 +89,6 @@ public class MovementsAction : MonoBehaviour
 
     private IEnumerator Move()
     {
-        Debug.Log("move");
         for(int i = 0; i < infos.Length; i++)
         {
             if(playSound)
