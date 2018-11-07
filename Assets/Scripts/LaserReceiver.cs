@@ -17,12 +17,14 @@ public class LaserReceiver : MonoBehaviour
     private bool _EventsThrown = false;
     private bool _throwEventsOnce = false;
     private bool _reverted = false;
+    private ColorCube _receivedColor;
     #endregion
 
     #region Unity Methods
     private void Update()
     {
-        if (laser.GetColorCube() == targetColor)
+        _receivedColor = laser.GetColorCube();
+        if (!_activated && _receivedColor == targetColor)
         {
             _reverted = false;
             _activated = true;
@@ -30,9 +32,9 @@ public class LaserReceiver : MonoBehaviour
                 !_throwEventsOnce)
                 events.Invoke();
         }
-        else if(_activated)
+        else if(_activated && _receivedColor != targetColor)
         {
-            if(!_reverted)
+            if (!_reverted)
             {
                 _reverted = true;
                 RevertEvents.Invoke();

@@ -12,12 +12,14 @@ public class MovementsAction : MonoBehaviour
     #region Private Fields
     private bool _moving = false;
     private AudioSource _audioSource = null;
+    private Vector3 _localBasePos;
     #endregion
 
     #region Unity Methods
     private void Start()
     {
         _audioSource = GetComponent<AudioSource>();
+        _localBasePos = transform.localPosition;
     }
     #endregion
 
@@ -26,7 +28,7 @@ public class MovementsAction : MonoBehaviour
     {
         if (_moving) return;
 
-        _moving = false;
+        _moving = true;
 
         StartCoroutine("Move");
     }
@@ -35,7 +37,7 @@ public class MovementsAction : MonoBehaviour
     {
         if (_moving) return;
 
-        _moving = false;
+        _moving = true;
 
         StartCoroutine("InvertMove");
     }
@@ -44,7 +46,9 @@ public class MovementsAction : MonoBehaviour
     #region Private Methods
     private IEnumerator InvertMove()
     {
-        for (int i = infos.Length - 1; i > 0; i--)
+        Debug.Log("InvertMove");
+
+        for (int i = infos.Length - 1; i >= 0; i--)
         {
             if (playSound)
             {
@@ -53,18 +57,38 @@ public class MovementsAction : MonoBehaviour
             }
             float timer = 0;
             Vector3 basePos = transform.localPosition;
+            Debug.Log("base:" + basePos);
+            Debug.Log("_localBasePos:" + _localBasePos);
+
             while (timer < infos[i].time)
             {
-                transform.localPosition = Vector3.Lerp(basePos, infos[i].pos, timer / infos[i].time);
+                if(i == 0)
+                {
+                    transform.localPosition = Vector3.Lerp(basePos, _localBasePos, timer / infos[i].time);
+                }
+                else
+                {
+                    transform.localPosition = Vector3.Lerp(basePos, infos[i].pos, timer / infos[i].time);
+                }
                 timer += Time.deltaTime;
                 yield return null;
             }
-            transform.localPosition = infos[i].pos;
+            if (i == 0)
+            {
+                transform.localPosition = _localBasePos;
+            }
+            else
+            {
+                transform.localPosition = infos[i].pos;
+            }
         }
+
+        _moving = false;
     }
 
     private IEnumerator Move()
     {
+        Debug.Log("move");
         for(int i = 0; i < infos.Length; i++)
         {
             if(playSound)
@@ -82,6 +106,7 @@ public class MovementsAction : MonoBehaviour
             }
             transform.localPosition = infos[i].pos;
         }
+        _moving = false;
     }
     #endregion
 }
