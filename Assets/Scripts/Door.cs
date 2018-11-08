@@ -12,12 +12,21 @@ public class Door : MonoBehaviour
 
     public float timeWaitForChangeCubeColor = 5;
     public float timeWaitForCubeMovement = 5;
+
+    public bool broken = false;
     #endregion
 
     #region Private Fields
     #endregion
 
     #region Unity Methods
+    private void Start()
+    {
+        if(broken)
+        {
+
+        }
+    }
     #endregion
 
     #region Public Methods
