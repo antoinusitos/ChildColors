@@ -33,6 +33,22 @@ public class PlayerAbilities : MonoBehaviour
         else if (state == 3)
             haveBlue = true;
     }
+
+    public bool Havebilities(ColorCube state)
+    {
+        switch(state)
+        {
+            case ColorCube.BLUE:
+                return haveBlue;
+            case ColorCube.GREEN:
+                return haveGreen;
+            case ColorCube.RED:
+                return haveRed;
+            case ColorCube.WHITE:
+                return haveWhite;
+        }
+        return false;
+    }
     #endregion
 
     #region Private Methods
