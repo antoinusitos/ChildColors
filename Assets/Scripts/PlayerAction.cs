@@ -25,6 +25,13 @@ public class PlayerAction : MonoBehaviour
             RaycastHit hit;
             if (Physics.Raycast(cameraPlayer.position, cameraPlayer.forward, out hit, 2))
             {
+                TurnCube tc = hit.transform.GetComponent<TurnCube>();
+                if (tc != null)
+                {
+                    tc.Turn();
+                    return;
+                }
+
                 Movable m = hit.transform.GetComponent<Movable>();
                 if(m != null)
                 {
