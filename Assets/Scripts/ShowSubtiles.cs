@@ -7,6 +7,7 @@ public class ShowSubtiles : MonoBehaviour
 {
     #region Public Fields
     public SubtileInfo[] subtileInfos = null;
+    public bool otherSpeaking = false;
     #endregion
 
     #region Private Fields
@@ -17,6 +18,7 @@ public class ShowSubtiles : MonoBehaviour
     private Color basePanelColor;
     Color colPan = Color.grey;
     Color colTransp = Color.grey;
+    Color otherSpeakingColor = Color.black;
     private Image panel = null;
     #endregion
 
@@ -70,6 +72,8 @@ public class ShowSubtiles : MonoBehaviour
     {
         float timer = 0;
         Color col = Color.white;
+        if (otherSpeaking)
+            col = otherSpeakingColor;
         while (timer < 1)
         {
             col.a = Mathf.Lerp(1, 0, timer);
@@ -92,6 +96,8 @@ public class ShowSubtiles : MonoBehaviour
     {
         float timer = 0;
         Color col = Color.white;
+        if (otherSpeaking)
+            col = otherSpeakingColor;
         while (timer < 1)
         {
             col.a = Mathf.Lerp(1, 0, timer);

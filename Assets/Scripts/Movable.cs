@@ -81,6 +81,7 @@ public class Movable : MonoBehaviour
     #region Private Methods
     private IEnumerator MoveCube()
     {
+        bool stoppingMovement = false;
         RaycastHit hit; 
         if (Physics.Raycast(transform.position, transform.forward, out hit))
         {
@@ -91,7 +92,10 @@ public class Movable : MonoBehaviour
 
             StoppingMovement sm = hit.transform.GetComponent<StoppingMovement>();
             if (sm != null)
+            {
                 finalPos = hit.point - hit.normal / 2;
+                stoppingMovement = true;
+            }
 
             float dist = Vector3.Distance(basePos, finalPos);
             while (timer < dist)
@@ -99,7 +103,7 @@ public class Movable : MonoBehaviour
                 _transform.position = Vector3.Lerp(basePos, finalPos, timer / dist);
                 timer += Time.deltaTime * speed;
                 yield return null;
-                if (Physics.Raycast(transform.position, transform.forward, out hit))
+                if (!stoppingMovement && Physics.Raycast(transform.position, transform.forward, out hit))
                 {
                     if(lastHit != hit.transform)
                     {
