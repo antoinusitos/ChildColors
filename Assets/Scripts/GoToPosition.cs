@@ -40,6 +40,10 @@ public class GoToPosition : MonoBehaviour
     #endregion
  
     #region Public Methods
+    public void SetActive(bool newState)
+    {
+        _active = newState;
+    }
     #endregion
 
     #region Private Methods
