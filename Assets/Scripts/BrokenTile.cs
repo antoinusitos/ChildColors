@@ -18,6 +18,7 @@ public class BrokenTile : MonoBehaviour
     private float _currentTime = 0;
     private ColorizedCube _colorizedCube = null;
     private bool _isOn = true;
+    private bool _broken = true;
     #endregion
 
     #region Unity Methods
@@ -30,6 +31,8 @@ public class BrokenTile : MonoBehaviour
 
     private void Update()
     {
+        if (!_broken) return;
+
         _currentTime += Time.deltaTime;
         if(_currentTime >= _currentTimeToSwitch)
         {
@@ -48,6 +51,11 @@ public class BrokenTile : MonoBehaviour
     #endregion
 
     #region Public Methods
+    public void Reboot()
+    {
+        _broken = false;
+        _colorizedCube.ForceChangeColor((int)ColorCube.GREY);
+    }
     #endregion
 
     #region Private Methods
