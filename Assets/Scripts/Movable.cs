@@ -96,6 +96,12 @@ public class Movable : MonoBehaviour
                 finalPos = hit.point - hit.normal / 2;
                 stoppingMovement = true;
             }
+            Rotator r = hit.transform.GetComponent<Rotator>();
+            if (r != null)
+            {
+                finalPos = hit.point - hit.normal / 2;
+                stoppingMovement = true;
+            }
 
             float dist = Vector3.Distance(basePos, finalPos);
             while (timer < dist)
