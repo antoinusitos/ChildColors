@@ -25,6 +25,7 @@ public struct SubtileInfo
 {
     public string text;
     public float time;
+    public AudioClip clipToPlay;
 }
 
 public class Data : MonoBehaviour 
