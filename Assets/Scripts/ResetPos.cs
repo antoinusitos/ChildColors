@@ -6,6 +6,8 @@ public class ResetPos : Reset
 {
     #region Public Fields
     public Vector3 pos = Vector3.zero;
+	public bool resetRotation = false;
+	public Vector3 rot = Vector3.zero;
     #endregion
 
     #region Private Fields
@@ -18,6 +20,8 @@ public class ResetPos : Reset
     public override void ExecuteReset()
     {
         transform.localPosition = pos;
+		if(resetRotation)
+			transform.localRotation = Quaternion.Euler(rot);
     }
     #endregion
 

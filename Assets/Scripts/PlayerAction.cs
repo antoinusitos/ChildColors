@@ -43,29 +43,35 @@ public class PlayerAction : MonoBehaviour
                 {
                     rb.Execute();
                 }
+				
+				Rotator r = hit.transform.GetComponent<Rotator>();
+                if (r != null)
+                {
+                    r.ChangeDirection();
+                }
             }
         }
 
         RaycastHit hitTest;
         if (Physics.Raycast(cameraPlayer.position, cameraPlayer.forward, out hitTest, 2))
         {
-            Movable m = hitTest.transform.GetComponent<Movable>();
-            if (m != null && m.GetCanMove())
-            {
-                hand.SetActive(true);
-            }
-            else
-            {
-                ResetButton rb = hitTest.transform.GetComponent<ResetButton>();
-                if (rb != null)
-                {
-                    hand.SetActive(true);
-                }
-                else
-                {
-                    hand.SetActive(false);
-                }
-            }
+			Action a = hitTest.transform.GetComponent<Action>();
+			if (a != null)
+			{
+				Movable m = a.GetComponent<Movable>();
+				hand.SetActive(true);
+				if (m != null)
+				{
+					if(!m.GetCanMove())
+					{	
+						hand.SetActive(false);
+						return;
+					}
+				}
+				return;
+			}
+			
+			hand.SetActive(false);
         }
         else
         {

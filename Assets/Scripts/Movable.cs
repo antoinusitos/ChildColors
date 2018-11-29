@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movable : MonoBehaviour 
+public class Movable : Action 
 {
     #region Public Fields
     public float speed = 2.0f;

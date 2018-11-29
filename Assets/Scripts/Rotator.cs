@@ -1,11 +1,15 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class Rotator : MonoBehaviour 
+public class Rotator : Action 
 {
     #region Public Fields
     public bool turnRight = false;
+	public Image image = null;
+	public Sprite turnRightImage = null;
+	public Sprite turnLeftImage = null;
     #endregion
 
     #region Private Fields
@@ -14,6 +18,11 @@ public class Rotator : MonoBehaviour
     #endregion
 
     #region Unity Methods
+	private void Start()
+	{
+		ChangeDirectionImage();
+	}
+	
     private void OnTriggerEnter(Collider other)
     {
         Movable m = other.GetComponent<Movable>();
@@ -37,16 +46,33 @@ public class Rotator : MonoBehaviour
         if(_lastMovable != null && !_lastMovable.GetIsMoving() && !_isTurning)
         {
             _isTurning = true;
-            Invoke("Turn", 0.5f);
-            Invoke("MoveAgain", 1f);
+			Turn();
+			MoveAgain();
         }
     }
     #endregion
 
     #region Public Methods
-    #endregion
+	public void ChangeDirection()
+	{
+		turnRight = !turnRight;
+		ChangeDirectionImage();
+	}
+	#endregion
 
-    #region Private Methods
+    #region Private Methods	
+	private void ChangeDirectionImage()
+	{
+		if (turnRight)
+        {
+			image.sprite = turnRightImage;
+        }
+        else
+        {
+            image.sprite = turnLeftImage;
+        }
+	}
+	
     private void Turn()
     {
         if (turnRight)
