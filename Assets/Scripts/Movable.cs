@@ -96,8 +96,16 @@ public class Movable : Action
                 finalPos = hit.point - hit.normal / 2;
                 stoppingMovement = true;
             }
-            Rotator r = hit.transform.GetComponent<Rotator>();
+            
+			Rotator r = hit.transform.GetComponent<Rotator>();
             if (r != null)
+            {
+                finalPos = hit.point - hit.normal / 2;
+                stoppingMovement = true;
+            }
+			
+			Conveyor c = hit.transform.GetComponent<Conveyor>();
+            if (c != null)
             {
                 finalPos = hit.point - hit.normal / 2;
                 stoppingMovement = true;
