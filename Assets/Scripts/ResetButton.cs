@@ -7,6 +7,8 @@ public class ResetButton : Action
 {
     #region Public Fields
     public Transform scene = null;
+	public bool useScene = false;
+	public Reset[] toResets = null;
     public UnityEvent postResetEvents;
     public bool canReset = true;
 	#endregion
@@ -22,11 +24,21 @@ public class ResetButton : Action
     {
         if (!canReset) return;
 
-        Reset[] resets = scene.GetComponentsInChildren<Reset>();
-        for(int i = 0; i < resets.Length; i++)
-        {
-            resets[i].ExecuteReset();
-        }
+		if(useScene)
+		{
+			Reset[] resets = scene.GetComponentsInChildren<Reset>();
+			for(int i = 0; i < resets.Length; i++)
+			{
+				resets[i].ExecuteReset();
+			}
+		}
+		else
+		{
+			for(int i = 0; i < toResets.Length; i++)
+			{
+				toResets[i].ExecuteReset();
+			}
+		}
         postResetEvents.Invoke();
     }
 
