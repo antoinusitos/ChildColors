@@ -6,6 +6,7 @@ public class Movable : Action
 {
     #region Public Fields
     public float speed = 2.0f;
+    public Conveyor conveyor = null;
     #endregion
 
     #region Private Fields
