@@ -30,7 +30,10 @@ public class Laser : MonoBehaviour
 	{
         if (!_activated) return;
         RaycastHit hit;
-        if (Physics.Raycast(_transform.position, _transform.forward, out hit))
+        int layerMask = 1 << 15;
+        layerMask = ~layerMask;
+
+        if (Physics.Raycast(_transform.position, _transform.forward, out hit, _lineRenderer.GetPosition(1).z, layerMask))
         {
             Movable m = hit.transform.GetComponent<Movable>();
             if (m != null)
@@ -50,6 +53,7 @@ public class Laser : MonoBehaviour
             {
                 _colorCube = ColorCube.BLACK;
                 _lineRenderer.material.color = Data.GetColor(_colorCube);
+                return;
             }
         }
     }
