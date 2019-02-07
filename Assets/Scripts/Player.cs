@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour 
 {
-	#region Public Fields
+    #region Public Fields
+    public Vector3 startingPos;
 	#endregion
 	
 	#region Private Fields
