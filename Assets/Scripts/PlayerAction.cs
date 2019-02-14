@@ -55,7 +55,7 @@ public class PlayerAction : MonoBehaviour
         RaycastHit hitTest;
         if (Physics.Raycast(cameraPlayer.position, cameraPlayer.forward, out hitTest, 2))
         {
-			Action a = hitTest.transform.GetComponent<Action>();
+            GameAction a = hitTest.transform.GetComponent<GameAction>();
 			if (a != null)
 			{
 				Movable m = a.GetComponent<Movable>();

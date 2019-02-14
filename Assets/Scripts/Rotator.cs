@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Rotator : Action 
+public class Rotator : GameAction
 {
     #region Public Fields
     public bool turnRight = false;

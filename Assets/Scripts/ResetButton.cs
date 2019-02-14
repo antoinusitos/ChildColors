@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ResetButton : Action 
+public class ResetButton : GameAction
 {
     #region Public Fields
     public Transform scene = null;
