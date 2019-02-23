@@ -30,7 +30,7 @@ public class Scene : MonoBehaviour
         }
         for (int i = 0; i < scenesToLoad.Length; i++)
         {
-            _multiScene.LoadScene(scenesToUnload[i]);
+            _multiScene.LoadScene(scenesToLoad[i]);
         }
     }
     #endregion

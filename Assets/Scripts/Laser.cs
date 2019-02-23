@@ -63,6 +63,9 @@ public class Laser : MonoBehaviour
     public void ActiveLaser(bool newState)
     {
         _activated = newState;
+
+        if(_lineRenderer == null) _lineRenderer = GetComponent<LineRenderer>();
+
         _lineRenderer.enabled = newState;
     }
 
@@ -73,6 +76,8 @@ public class Laser : MonoBehaviour
 
     public void ChangeLaserColor(Color col)
     {
+        if (_lineRenderer == null) _lineRenderer = GetComponent<LineRenderer>();
+
         _lineRenderer.material.color = col;
     }
     #endregion
