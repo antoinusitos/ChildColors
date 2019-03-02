@@ -5,15 +5,16 @@ using UnityEngine;
 public class MovementsAction : MonoBehaviour 
 {
     #region Public Fields
-    public MovementsInfo[] infos = null;
-    public bool playSound = false;
-    public bool bypassMoving = false;
+    public MovementsInfo[]  infos = null;
+    public bool             playSound = false;
+    public bool             bypassMoving = false;
+    public bool             movementInverted = false;
     #endregion
 
     #region Private Fields
-    private bool _moving = false;
-    private AudioSource _audioSource = null;
-    private Vector3 _localBasePos;
+    private bool            _moving = false;
+    private AudioSource     _audioSource = null;
+    private Vector3         _localBasePos;
     #endregion
 
     #region Unity Methods
@@ -25,15 +26,29 @@ public class MovementsAction : MonoBehaviour
     #endregion
 
     #region Public Methods
+    public void SetMovementInverted(bool newState)
+    {
+        movementInverted = newState;
+    }
+
     public void ExecuteMovements()
     {
         if (_moving && !bypassMoving) return;
 
         _moving = true;
 
-        StopCoroutine("InvertMove");
-        StopCoroutine("Move");
-        StartCoroutine("Move");
+        if(!movementInverted)
+        {
+            StopCoroutine("InvertMove");
+            StopCoroutine("Move");
+            StartCoroutine("Move");
+        }
+        else
+        {
+            StopCoroutine("Move");
+            StopCoroutine("InvertMove");
+            StartCoroutine("InvertMove");
+        }
     }
 
     public void ExecuteReverMovements()
@@ -42,9 +57,18 @@ public class MovementsAction : MonoBehaviour
 
         _moving = true;
 
-        StopCoroutine("Move");
-        StopCoroutine("InvertMove");
-        StartCoroutine("InvertMove");
+        if (!movementInverted)
+        {
+            StopCoroutine("Move");
+            StopCoroutine("InvertMove");
+            StartCoroutine("InvertMove");
+        }
+        else
+        {
+            StopCoroutine("InvertMove");
+            StopCoroutine("Move");
+            StartCoroutine("Move");
+        }
     }
     #endregion
 

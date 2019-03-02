@@ -112,6 +112,8 @@ public class Movable : GameAction
                 stoppingMovement = true;
             }
 
+            Color col = new Color(Random.Range(0f, 1), Random.Range(0f, 1), Random.Range(0f, 1), 1);
+
             float dist = Vector3.Distance(basePos, finalPos);
             while (timer < dist)
             {
@@ -126,7 +128,31 @@ public class Movable : GameAction
                         dist = Vector3.Distance(basePos, finalPos);
                     }
                 }
+
+                StoppingMovement sm2 = hit.transform.GetComponent<StoppingMovement>();
+                if (sm2 != null)
+                {
+                    finalPos = hit.point - hit.normal / 2;
+                    stoppingMovement = true;
+                }
+
+                Rotator r2 = hit.transform.GetComponent<Rotator>();
+                if (r2 != null)
+                {
+                    finalPos = hit.point - hit.normal / 2;
+                    stoppingMovement = true;
+                }
+
+                Conveyor c2 = hit.transform.GetComponent<Conveyor>();
+                if (c2 != null)
+                {
+                    finalPos = hit.point - hit.normal / 2;
+                    stoppingMovement = true;
+                }
+
+                Debug.DrawLine(basePos, finalPos, col);
             }
+
             _transform.position = finalPos;
         }
 

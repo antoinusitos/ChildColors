@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 114201421897812442}
   - component: {fileID: 82546095938664766}
   - component: {fileID: 114965043513158520}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 4638509881766186}
   - component: {fileID: 20169406073811752}
   - component: {fileID: 81995767053708768}
+  - component: {fileID: 114784086344108088}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -180,7 +181,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1091542268417516}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 51.6, z: -3.03}
+  m_LocalPosition: {x: -2, y: 5.6, z: 87.97}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4638509881766186}
@@ -466,7 +467,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 3
-  canMoveAtStart: 0
+  canMoveAtStart: 1
 --- !u!114 &114201421897812442
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -480,7 +481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   transformToRotate: {fileID: 4638509881766186}
   _speedHorizontal: 100
-  canMoveAtStart: 0
+  canMoveAtStart: 1
 --- !u!114 &114230178955309694
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -576,6 +577,18 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114784086344108088
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1915219566210532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  profile: {fileID: 11400000, guid: 781c3e4dd327c5a4ba6958c3809806c2, type: 2}
 --- !u!114 &114788402291128082
 MonoBehaviour:
   m_ObjectHideFlags: 1
